@@ -327,6 +327,23 @@ Where $\gamma_1, \gamma_2, \gamma_3, ...$ are the coefficients to be estimated f
 The estimation of the coefficients $\beta_0, \beta_1, \beta_2, ..., \beta_n, \alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k, \gamma_1, \gamma_2, \gamma_3, ...$ can be performed using the Ordinary Least Squares (OLS) method or other optimization techniques.
 
  By combining these components, the Linear Regression model with CalendarFourier and DeterministicProcess can effectively model and forecast both recurring cycles and growth trends in the time series, thereby achieving higher forecasting accuracy compared to simpler models. 
+ \subsection{LightGBM}
+ LightGBM, short for Light Gradient Boosting Machine, is a gradient boosting framework developed by Microsoft. It’s renowned for its efficiency and speed. The fundamental representation of how LightGBM combines predictions from different trees to make a final prediction can be represented by the following formula:
+
+\[ 
+Y = \text{Base\_tree}(X) - \text{lr} \times \text{Tree}_{1}(X) - \text{lr} \times \text{Tree}_{2}(X) - \text{lr} \times \text{Tree}_{3}(X) 
+\]
+
+ Here, Y is the final prediction, Base tree(X) is the prediction of the base model, Tree1(X), Tree2(X), and Tree3(X) are the predictions of subsequent models, and lr is the learning rate
+
+ LightGBM introduces two key techniques: Gradient-based One-Side Sampling (GOSS) and Exclusive Feature Bundling (EFB).
+ 
+ \begin{itemize}
+    \item GOSS focuses on sampling instances based on their gradients, prioritizing those with larger gradients for training. It also randomly drops instances with small gradients, thereby reducing the computational burden.
+    \item EFB optimizes memory usage by bundling exclusive features together, allowing for more efficient processing and faster training without compromising the performance significantly.
+ \end{itemize}
+
+ LightGBM employs histogram-based algorithms to find the best split points during tree construction1. Instead of exhaustively searching through all possible split points, LightGBM discretizes continuous features into discrete bins and constructs histograms to approximate the optimal split points. This approach significantly reduces computational complexity and memory usage, especially for datasets with a large number of unique feature values.
  
 \subsection{Recurrent Neural Network}
 Recurrent Neural Network (RNN) is a neural network architecture that enables processing sequential data in O(n) time complexity. The core idea of RNNs is to apply the divide-and-conquer approach. We divide the input sequence into time steps, recursively compute for each step, and combine the results to process the complete input sequence. 
