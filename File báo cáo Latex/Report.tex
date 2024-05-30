@@ -328,6 +328,41 @@ The estimation of the coefficients $\beta_0, \beta_1, \beta_2, ..., \beta_n, \al
 
  By combining these components, the Linear Regression model with CalendarFourier and DeterministicProcess can effectively model and forecast both recurring cycles and growth trends in the time series, thereby achieving higher forecasting accuracy compared to simpler models. 
  
+\subsection{Recurrent Neural Network}
+Recurrent Neural Network (RNN) is a neural network architecture that enables processing sequential data in O(n) time complexity. The core idea of RNNs is to apply the divide-and-conquer approach. We divide the input sequence into time steps, recursively compute for each step, and combine the results to process the complete input sequence. 
+Let $X$ be an input sequence of length $n$:
+\begin{equation}
+  |X| = x_1, x_2, ..., x_n
+  \end{equation}
+  Where:
+  \begin{itemize}
+  \item $|X|$ is the length of the input sequence $X$.
+  \item $x_1, x_2, ..., x_n$ are the elements of the sequence.
+  \item ... (read as "and so on") represents the remaining elements in the sequence.
+  \end{itemize}
+  We divide the input sequence into time steps, processing one element at each step:
+  \begin{align}
+  h_1 &= f(x_1, h_0) \
+  h_2 &= f(x_2, h_1) \
+  &...\
+  h_n &= f(x_n, h_{n-1})
+  \end{align}
+  In which:
+  \begin{itemize}
+  \item $h_t$ is the hidden state at time step $t$.
+  \item $f$ is a computation function, typically a non-linear transformation (e.g., tanh, ReLU) of the linear combination of the input $x_t$ and the previous hidden state $h_{t-1}$.
+  \item $h_0$ is the initial hidden state, usually initialized as zeros.
+  \end{itemize}
+
+  In the RNN computation, we apply the divide-and-conquer approach recursively at each time step, computing the hidden state $h_t$ based on the input $x_t$ and the previous hidden state $h_{t-1}$. The final result is the hidden state $h_n$, which encapsulates the contextual information from the entire input sequence.
+
+  The output $y_t$ at each time step $t$ is computed based on the current hidden state $h_t$ and input $x_t$, typically through an output layer:
+  \begin{equation}
+  y_t = g(h_t, x_t)
+  \end{equation}
+  Where $g$ is a function, often a linear transformation or a neural network.
+
+  Recurrent structure allows RNNs to capture long-range dependencies within the sequential data, making them suitable for various tasks such as language modeling, machine translation, speech recognition, and time series prediction.
 \section{Result}
 \subsection{Evaluation Methods}
 \textbf{Mean Percentage Absolute Error} (MAPE): is the average percentage error in a set of predicted values.\\
