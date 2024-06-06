@@ -266,6 +266,16 @@ Long short-term memory is a type of recurrent neural network (RNN) aimed at deal
 
 A common LSTM unit is composed of a cell, an input gate, an output gate and a forget gate. The cell remembers values over arbitrary time intervals and the three gates regulate the flow of information into and out of the cell. Forget gates decide what information to discard from a previous state by assigning a previous state, compared to a current input, a value between 0 and 1. A (rounded) value of 1 means to keep the information, and a value of 0 means to discard it. Input gates decide which pieces of new information to store in the current state, using the same system as forget gates. Output gates control which pieces of information in the current state to output by assigning a value from 0 to 1 to the information, considering the previous and current states. Selectively outputting relevant information from the current state allows the LSTM network to maintain useful, long-term dependencies to make predictions, both in current and future time-steps.
 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/LSTM_model.png}
+    \caption{LSTM model's}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
 \subsection{Linear Regression combined with CalendarFourier and DeterministicProcess }
 
 Linear Regression combined with CalendarFourier and DeterministicProcess is an extended linear regression method used for modeling and forecasting time series with recurring cycles and growth trends. This method combines the following elements: 
@@ -448,9 +458,9 @@ Where: \\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18 & 0.96 \\ & 8:2 &2031.85	& 44.21 & 0.15 \\ & \textbf{9:1} &1441.58&33.21& 0.10\\
          \hline
-         \multirow{2}{*}{SES} & 7:3 & & & \\ & 8:2 & && \\ & \textbf{9:1} &  	&	& 	\\
+         \multirow{2}{*}{LSTM}& 7:3& 691.72& 2.68\%& 0.0021\\ & 8:2 & 437.58& 2.67\%& 0.00098\\ & \textbf{9:1}& 485.37& 2.72\%& 0.0011\\
          \hline
-         \multirow{2}{*}{BaggingGRU} & 7:3 & &  &  \\ & 8:2 & &  &  \\ & \textbf{9:1} & & & \\
+         \multirow{2}{*}{LightGBM}& 7:3& 0.17& 291.51 & 0.023\\ & 8:2 & 0.007& 22.24 & 4.78\\ & \textbf{9:1}& 0.006& 20.78 & 4.16\\
          \hline
     \end{tabular}
     \caption{AMV Dataset's Evaluation}
@@ -517,6 +527,26 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_LSTM(7_3).png}
+    \caption{LSTM model's result with 7:3 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_LightGBM(9_1).png}
+    \caption{LightGBM model's result with 9:1 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
 \subsection{DP3 Dataset} 
 \begin{table}[H]
     \centering
@@ -539,9 +569,9 @@ Where: \\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 54681.37 & 69.13 & 0.31 \\ & {8:2} & 48774.18 & 67.56 & 0.28 \\ & \textbf{9:1} & 45471.00 &66.45&0.26\\
          \hline
-         \multirow{2}{*}{SES} & 7:3 & & & \\ & 8:2 & && \\ & \textbf{9:1} &  	&	& 	\\
+         \multirow{2}{*}{LSTM}& 7:3& 2690.97& 2.48\%& 0.0013\\ & 8:2 & 2066.61& 1.7\%& 0.00079\\ & \textbf{9:1}& 2835.08& 2.24\%& 0.0013\\
          \hline
-         \multirow{2}{*}{BaggingGRU} & 7:3 & &  &  \\ & 8:2 & &  &  \\ & \textbf{9:1} & & & \\
+         \multirow{2}{*}{LightGBM}& 7:3& 0.08& 186.63 & 0.003\\ & 8:2 & 0.013& 71.27 & 0.0001\\ & \textbf{9:1}& 0.008& 7.12 & 6.01\\
          \hline
     \end{tabular}
     \caption{DP3 Dataset's Evaluation}
@@ -609,6 +639,26 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/DP3_LSTM(9_1).png}
+    \caption{LSTM model's result with 9:1 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/DP3_LightGBM(7_3).png}
+    \caption{LightGBM model's result with 7:3 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
 \subsection{DHT Dataset} 
 \begin{table}[H]
     \centering
@@ -630,9 +680,9 @@ Where: \\
          \hline
          \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & {8:2} &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
          \hline
-         \multirow{2}{*}{SES} & 7:3 & & & \\ & 8:2 & && \\ & \textbf{9:1} &  	&	& 	\\
+         \multirow{2}{*}{LSTM}& 7:3& 497.09& 2.65\%& 0.0014\\ & 8:2 & 524.89& 3.44\%& 0.00019\\ & \textbf{9:1}& 387.75& 3.10\%& 0.0013\\
          \hline
-         \multirow{2}{*}{BaggingGRU} & 7:3 & &  &  \\ & 8:2 & &  &  \\ & \textbf{9:1} & & & \\
+         \multirow{2}{*}{LightGBM}& 7:3& 0.25& 45.29 & 0.02\\ & 8:2 & 0.27& 32.08 & 0.03\\ & \textbf{9:1}& 0.05& 5.28 & 0.0006\\
          \hline
     \end{tabular}
     \caption{DHT Dataset's Evaluation}
@@ -696,6 +746,26 @@ Where: \\
     \centering
     \includegraphics[width=\linewidth]{bibliography/Figure/DHT_LN_CF&DP.png}
     \caption{LN-CF-DP model's result with 7:3 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/DHT_LSTM(8_2).png}
+    \caption{LSTM model's result with 8:2 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/DHT_LightGBM(8_2).png}
+    \caption{LightGBM model's result with 8:2 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
