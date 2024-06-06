@@ -332,6 +332,36 @@ Where $\gamma_1, \gamma_2, \gamma_3, ...$ are the coefficients to be estimated f
 The estimation of the coefficients $\beta_0, \beta_1, \beta_2, ..., \beta_n, \alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k, \gamma_1, \gamma_2, \gamma_3, ...$ can be performed using the Ordinary Least Squares (OLS) method or other optimization techniques.
 
  By combining these components, the Linear Regression model with CalendarFourier and DeterministicProcess can effectively model and forecast both recurring cycles and growth trends in the time series, thereby achieving higher forecasting accuracy compared to simpler models. 
+ 
+ \subsection{Gated Recurrent Unit}
+ The Gated Recurrent Unit (GRU) is a type of recurrent neural network (RNN) architecture similar to Long Short-Term Memory (LSTM) but with a simpler design and fewer parameters. GRU employs two gates: the reset gate and the update gate. The reset gate controls the forgetting of the previous hidden state, while the update gate manages the incorporation of a candidate activation vector into the new hidden state.
+
+ The GRU processes sequential data one element at a time, updating its hidden state based on the current input and the previous hidden state. At each time step, it computes a "candidate activation vector" that combines information from the input and previous hidden state. This vector is updated using the reset gate, which controls how much of the previous hidden state to forget, and the update gate, which determines how much of the candidate activation vector to incorporate into the new hidden state.
+
+ Here’s the math behind the GRU architecture:
+
+ 1. The reset gate \( r \) and update gate \( z \) are computed using the current input \( x \) and the previous hidden state \( h_{t-1} \):
+
+ \[
+  r_t = \text{sigmoid}(\mathbf{W}_r \cdot [h_{t-1}, x_t])
+  \]
+  \[
+  z_t = \text{sigmoid}(\mathbf{W}_z \cdot [h_{t-1}, x_t])
+  \]
+
+where \( \mathbf{W}_r \) and \( \mathbf{W}_z \) are weight matrices that are learned during training.
+
+ 2. The candidate activation vector \( \tilde{h}_t \) is computed using the current input \( x \) and a modified version of the previous hidden state that is "reset" by the reset gate:
+
+\[ \tilde{h}_t = \frac{{e^{r_t \ast h_{t-1}} + e^{-r_t \ast h_{t-1}}}}{{e^{r_t \ast h_{t-1}} - e^{-r_t \ast h_{t-1}}}} \cdot x_t \]
+
+where \( \mathbf{W}_h \) is another weight matrix.
+
+ 3. The new hidden state \( h_t \) is computed by combining the candidate activation vector with the previous hidden state, weighted by the update gate:
+
+\[ h_t = (1 - z_t) \ast h_{t-1} + z_t \ast \tilde{h}_t \]
+
+ Overall, the reset gate controls the retention of the previous hidden state, and the update gate determines how much of the candidate activation vector updates the new hidden state. This compact architecture selectively updates its hidden state without needing a separate memory cell like LSTM.
  \subsection{LightGBM}
  LightGBM, short for Light Gradient Boosting Machine, is a gradient boosting framework developed by Microsoft. It’s renowned for its efficiency and speed. The fundamental representation of how LightGBM combines predictions from different trees to make a final prediction can be represented by the following formula:
 
