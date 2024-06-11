@@ -341,17 +341,23 @@ INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+<<<<<<< HEAD
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+=======
+>>>>>>> eea90f1 (rp)
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
+<<<<<<< HEAD
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+=======
+>>>>>>> eea90f1 (rp)
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT .\bibliography\Figure\LN_AMV73.png
 INPUT .\bibliography\Figure\LN_AMV73.png
@@ -367,12 +373,44 @@ INPUT .\bibliography\Figure\LN_AMV82.png
 INPUT .\bibliography\Figure\LN_AMV82.png
 INPUT .\bibliography\Figure\LN_AMV82.png
 INPUT .\bibliography\Figure\LN_AMV82.png
+<<<<<<< HEAD
+=======
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_ARIMA.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
+>>>>>>> eea90f1 (rp)
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+<<<<<<< HEAD
 INPUT .\bibliography\Figure\LN_AMV91.png
 INPUT .\bibliography\Figure\LN_AMV91.png
 INPUT .\bibliography\Figure\LN_AMV91.png
@@ -419,6 +457,8 @@ INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
+=======
+>>>>>>> eea90f1 (rp)
 INPUT .\bibliography\Figure\LN_DP373.png
 INPUT .\bibliography\Figure\LN_DP373.png
 INPUT .\bibliography\Figure\LN_DP373.png
@@ -461,6 +501,7 @@ INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
+<<<<<<< HEAD
 INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
 INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
 INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
@@ -468,10 +509,13 @@ INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
 INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
 INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
 INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
+=======
+>>>>>>> eea90f1 (rp)
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
+<<<<<<< HEAD
 INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
 INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
 INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
@@ -479,6 +523,8 @@ INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
 INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
 INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
 INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
+=======
+>>>>>>> eea90f1 (rp)
 INPUT .\bibliography\Figure\LN_DHT73.png
 INPUT .\bibliography\Figure\LN_DHT73.png
 INPUT .\bibliography\Figure\LN_DHT73.png
@@ -525,6 +571,7 @@ INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
+<<<<<<< HEAD
 INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
 INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
 INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
@@ -539,6 +586,12 @@ INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
 INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
 INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
 INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
+=======
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Logo_HTTT.png
+>>>>>>> eea90f1 (rp)
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
