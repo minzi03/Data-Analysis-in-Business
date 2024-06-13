@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.6)  13 JUN 2024 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.6.6)  13 JUN 2024 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,6 +430,15 @@ LaTeX Warning: Label `fig8' multiply defined.
 
 LaTeX Warning: Label `fig8' multiply defined.
 
+
+LaTeX Warning: Label `fig8' multiply defined.
+
+
+LaTeX Warning: Label `fig8' multiply defined.
+
+
+LaTeX Warning: Label `fig8' multiply defined.
+
 )
 \openout1 = `Report.aux'.
 
@@ -679,15 +688,26 @@ LaTeX Font Warning: Font shape `TS1/ptm/n/n' undefined
 (Font)              using `TS1/ptm/m/n' instead
 (Font)              for symbol `textbullet' on input line 180.
 
+<bibliography/Figure/LN_model.png, id=28, 542.025pt x 404.712pt>
+File: bibliography/Figure/LN_model.png Graphic file (type png)
+<use bibliography/Figure/LN_model.png>
+Package pdftex.def Info: bibliography/Figure/LN_model.png  used on input line 190.
+(pdftex.def)             Requested size: 194.13957pt x 144.95515pt.
 
-Package xcolor Warning: Incompatible color definition on input line 185.
+Package xcolor Warning: Incompatible color definition on input line 191.
 
 
-Package xcolor Warning: Incompatible color definition on input line 213.
+Package xcolor Warning: Incompatible color definition on input line 191.
+
+
+Package xcolor Warning: Incompatible color definition on input line 196.
+
+
+Package xcolor Warning: Incompatible color definition on input line 224.
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 263.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 257.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -704,62 +724,66 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[3 <./bibliography/Figure/AMVboxplot.png> <./bibliography/Figure/AMVhist.png>]
+[3 <./bibliography/Figure/AMVboxplot.png> <./bibliography/Figure/AMVhist.png> <./bibliography/Figure/LN_model.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 264.
+Package xcolor Warning: Incompatible color definition on input line 275.
+
+<bibliography/Figure/LSTM_model.png, id=43, 650.43pt x 425.59pt>
+File: bibliography/Figure/LSTM_model.png Graphic file (type png)
+<use bibliography/Figure/LSTM_model.png>
+Package pdftex.def Info: bibliography/Figure/LSTM_model.png  used on input line 337.
+(pdftex.def)             Requested size: 194.13957pt x 127.02858pt.
+
+Package xcolor Warning: Incompatible color definition on input line 338.
 
 
-Package xcolor Warning: Incompatible color definition on input line 269.
+Package xcolor Warning: Incompatible color definition on input line 338.
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 294.
-(C:\Users\khaqt\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
+
+Package xcolor Warning: Incompatible color definition on input line 343.
+
+File: bibliography/Logo_HTTT.png Graphic file (type png)
+<use bibliography/Logo_HTTT.png>
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 365.
+(pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4 <./bibliography/Figure/LSTM_model.png>]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 368.
+ (C:\Users\khaqt\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (17.18312pt too wide) detected at line 311
+Overfull \hbox (17.18312pt too wide) detected at line 385
 \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !t\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 ^^L[] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !t\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 [] []\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 !t\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 ^^L[] []\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 !t\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 +
  []
 
-File: bibliography/Logo_HTTT.png Graphic file (type png)
-<use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 327.
-(pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Overfull \hbox (505.12177pt too wide) has occurred while \output is active
-[]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[4]
-Overfull \hbox (126.5728pt too wide) in paragraph at lines 332--333
+Overfull \hbox (126.5728pt too wide) in paragraph at lines 406--407
 []\T1/ptm/n/n/10 The es-ti-ma-tion of the co-ef-fi-cients $\OML/cmm/m/it/10 ^^L[]; ^^L[]; ^^L[]; :::; ^^L[]; []; ^^L[]; []; ^^L[]; :::; []; ^^L[]; ^^M[]; ^^M[]; ^^M[]; :::$
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 336.
+Package xcolor Warning: Incompatible color definition on input line 410.
 
 
-Package xcolor Warning: Incompatible color definition on input line 365.
-
-
-Overfull \hbox (17.87004pt too wide) detected at line 370
-\OML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] ^^B [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] ^^B [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] ^^B [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 )
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 383.
+Package xcolor Warning: Incompatible color definition on input line 439.
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 401.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 441.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -777,74 +801,59 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [5]
+Overfull \hbox (17.87004pt too wide) detected at line 444
+\OML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] ^^B [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] ^^B [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ [] ^^B [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 )
+ []
 
-Package xcolor Warning: Incompatible color definition on input line 418.
+<bibliography/Figure/LightGBM_model.png, id=55, 652.23676pt x 251.7405pt>
+File: bibliography/Figure/LightGBM_model.png Graphic file (type png)
+<use bibliography/Figure/LightGBM_model.png>
+Package pdftex.def Info: bibliography/Figure/LightGBM_model.png  used on input line 461.
+(pdftex.def)             Requested size: 194.13957pt x 74.92732pt.
+
+Package xcolor Warning: Incompatible color definition on input line 462.
 
 
-Package xcolor Warning: Incompatible color definition on input line 419.
+Package xcolor Warning: Incompatible color definition on input line 462.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Package xcolor Warning: Incompatible color definition on input line 467.
+
+
+Package xcolor Warning: Incompatible color definition on input line 502.
+
+
+Package xcolor Warning: Incompatible color definition on input line 503.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--423
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--425
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 430.
+Package xcolor Warning: Incompatible color definition on input line 514.
 
 
-Overfull \hbox (7.22133pt too wide) in paragraph at lines 433--456
+Overfull \hbox (0.8773pt too wide) in paragraph at lines 517--540
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 456.
-
-<bibliography/Figure/LN_AMV73.png, id=51, 411.2163pt x 298.4751pt>
-File: bibliography/Figure/LN_AMV73.png Graphic file (type png)
-<use bibliography/Figure/LN_AMV73.png>
-Package pdftex.def Info: bibliography/Figure/LN_AMV73.png  used on input line 464.
-(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
-
-Package xcolor Warning: Incompatible color definition on input line 465.
-
-
-Package xcolor Warning: Incompatible color definition on input line 465.
-
-<bibliography/Figure/LN_AMV82.png, id=52, 411.2163pt x 298.4751pt>
-File: bibliography/Figure/LN_AMV82.png Graphic file (type png)
-<use bibliography/Figure/LN_AMV82.png>
-Package pdftex.def Info: bibliography/Figure/LN_AMV82.png  used on input line 474.
-(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
-
-Package xcolor Warning: Incompatible color definition on input line 475.
-
-
-Package xcolor Warning: Incompatible color definition on input line 475.
-
-<bibliography/Figure/LN_AMV91.png, id=53, 411.2163pt x 298.4751pt>
-File: bibliography/Figure/LN_AMV91.png Graphic file (type png)
-<use bibliography/Figure/LN_AMV91.png>
-Package pdftex.def Info: bibliography/Figure/LN_AMV91.png  used on input line 484.
-(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
-
-Package xcolor Warning: Incompatible color definition on input line 485.
-
-
-Package xcolor Warning: Incompatible color definition on input line 485.
+Package xcolor Warning: Incompatible color definition on input line 540.
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 489.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 543.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -861,92 +870,95 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[6 <./bibliography/Figure/LN_AMV73.png> <./bibliography/Figure/LN_AMV82.png>]
-<bibliography/Figure/AMV_ARIMA.png, id=59, 739.3221pt x 395.3169pt>
+[6 <./bibliography/Figure/LightGBM_model.png>]
+<bibliography/Figure/LN_AMV(7_3).png, id=60, 422.0568pt x 298.4751pt>
+File: bibliography/Figure/LN_AMV(7_3).png Graphic file (type png)
+<use bibliography/Figure/LN_AMV(7_3).png>
+Package pdftex.def Info: bibliography/Figure/LN_AMV(7_3).png  used on input line 548.
+(pdftex.def)             Requested size: 194.13957pt x 137.29565pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 549.
+
+
+Package xcolor Warning: Incompatible color definition on input line 549.
+
+<bibliography/Figure/AMV_ARIMA.png, id=61, 739.3221pt x 395.3169pt>
 File: bibliography/Figure/AMV_ARIMA.png Graphic file (type png)
 <use bibliography/Figure/AMV_ARIMA.png>
-Package pdftex.def Info: bibliography/Figure/AMV_ARIMA.png  used on input line 494.
+Package pdftex.def Info: bibliography/Figure/AMV_ARIMA.png  used on input line 558.
 (pdftex.def)             Requested size: 194.13957pt x 103.8054pt.
 
+Package xcolor Warning: Incompatible color definition on input line 559.
 
-Package xcolor Warning: Incompatible color definition on input line 495.
 
+Package xcolor Warning: Incompatible color definition on input line 559.
 
-Package xcolor Warning: Incompatible color definition on input line 495.
-
-<bibliography/Figure/AMV_FFT.png, id=60, 948.9051pt x 364.9635pt>
+<bibliography/Figure/AMV_FFT.png, id=62, 948.9051pt x 364.9635pt>
 File: bibliography/Figure/AMV_FFT.png Graphic file (type png)
 <use bibliography/Figure/AMV_FFT.png>
-Package pdftex.def Info: bibliography/Figure/AMV_FFT.png  used on input line 504.
+Package pdftex.def Info: bibliography/Figure/AMV_FFT.png  used on input line 568.
 (pdftex.def)             Requested size: 194.13957pt x 74.66763pt.
 
-Package xcolor Warning: Incompatible color definition on input line 505.
+Package xcolor Warning: Incompatible color definition on input line 569.
 
 
-Package xcolor Warning: Incompatible color definition on input line 505.
+Package xcolor Warning: Incompatible color definition on input line 569.
 
-<bibliography/Figure/AMV_LN_CF&DP.png, id=61, 739.3221pt x 395.3169pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<bibliography/Figure/AMV_LN_CF&DP.png, id=63, 739.3221pt x 395.3169pt>
 File: bibliography/Figure/AMV_LN_CF&DP.png Graphic file (type png)
 <use bibliography/Figure/AMV_LN_CF&DP.png>
-Package pdftex.def Info: bibliography/Figure/AMV_LN_CF&DP.png  used on input line 514.
+Package pdftex.def Info: bibliography/Figure/AMV_LN_CF&DP.png  used on input line 578.
 (pdftex.def)             Requested size: 194.13957pt x 103.8054pt.
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+
+Package xcolor Warning: Incompatible color definition on input line 579.
 
 
-Package xcolor Warning: Incompatible color definition on input line 515.
+Package xcolor Warning: Incompatible color definition on input line 579.
+
+<bibliography/Figure/LSTM_AMV(8_2).png, id=64, 422.0568pt x 298.4751pt>
+File: bibliography/Figure/LSTM_AMV(8_2).png Graphic file (type png)
+<use bibliography/Figure/LSTM_AMV(8_2).png>
+Package pdftex.def Info: bibliography/Figure/LSTM_AMV(8_2).png  used on input line 588.
+(pdftex.def)             Requested size: 194.13957pt x 137.29565pt.
+
+Package xcolor Warning: Incompatible color definition on input line 589.
 
 
-Package xcolor Warning: Incompatible color definition on input line 520.
+Package xcolor Warning: Incompatible color definition on input line 589.
+
+<bibliography/Figure/LightGBM_AMV(8_2).png, id=65, 422.0568pt x 298.4751pt>
+File: bibliography/Figure/LightGBM_AMV(8_2).png Graphic file (type png)
+<use bibliography/Figure/LightGBM_AMV(8_2).png>
+Package pdftex.def Info: bibliography/Figure/LightGBM_AMV(8_2).png  used on input line 598.
+(pdftex.def)             Requested size: 194.13957pt x 137.29565pt.
+
+Package xcolor Warning: Incompatible color definition on input line 599.
 
 
-Overfull \hbox (3.8932pt too wide) in paragraph at lines 523--547
+Package xcolor Warning: Incompatible color definition on input line 599.
+
+
+Package xcolor Warning: Incompatible color definition on input line 604.
+
+
+Overfull \hbox (0.8773pt too wide) in paragraph at lines 607--631
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 547.
+Package xcolor Warning: Incompatible color definition on input line 631.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<bibliography/Figure/LN_DP373.png, id=62, 417.7206pt x 298.4751pt>
-File: bibliography/Figure/LN_DP373.png Graphic file (type png)
-<use bibliography/Figure/LN_DP373.png>
-Package pdftex.def Info: bibliography/Figure/LN_DP373.png  used on input line 555.
-(pdftex.def)             Requested size: 194.13957pt x 138.71661pt.
-
-
-Package xcolor Warning: Incompatible color definition on input line 556.
-
-
-Package xcolor Warning: Incompatible color definition on input line 556.
-
-<bibliography/Figure/LN_DP382.png, id=63, 417.7206pt x 298.4751pt>
-File: bibliography/Figure/LN_DP382.png Graphic file (type png)
-<use bibliography/Figure/LN_DP382.png>
-Package pdftex.def Info: bibliography/Figure/LN_DP382.png  used on input line 565.
-(pdftex.def)             Requested size: 194.13957pt x 138.71661pt.
-
-Package xcolor Warning: Incompatible color definition on input line 566.
-
-
-Package xcolor Warning: Incompatible color definition on input line 566.
-
-<bibliography/Figure/LN_DP391.png, id=64, 417.7206pt x 298.4751pt>
-File: bibliography/Figure/LN_DP391.png Graphic file (type png)
-<use bibliography/Figure/LN_DP391.png>
-Package pdftex.def Info: bibliography/Figure/LN_DP391.png  used on input line 575.
-(pdftex.def)             Requested size: 194.13957pt x 138.71661pt.
-
-Package xcolor Warning: Incompatible color definition on input line 576.
-
-
-Package xcolor Warning: Incompatible color definition on input line 576.
+Underfull \vbox (badness 2426) has occurred while \output is active []
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 580.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 634.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -963,92 +975,95 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[7 <./bibliography/Figure/LN_AMV91.png> <./bibliography/Figure/AMV_ARIMA.png> <./bibliography/Figure/AMV_FFT.png> <./bibliography/Figure/AMV_LN_CF&DP.png> <./bibliography/Figure/LN_DP373.png> <./bibliography/Figure/LN_DP382.png>]
-<bibliography/Figure/DP3_ARIMA.png, id=75, 745.1037pt x 395.3169pt>
+[7 <./bibliography/Figure/LN_AMV(7_3).png> <./bibliography/Figure/AMV_ARIMA.png> <./bibliography/Figure/AMV_FFT.png> <./bibliography/Figure/AMV_LN_CF&DP.png> <./bibliography/Figure/LSTM_AMV(8_2).png> <./bibliography/Figure/LightGBM_AMV(8_2).png>]
+<bibliography/Figure/LN_DP3(8_2).png, id=76, 411.2163pt x 298.4751pt>
+File: bibliography/Figure/LN_DP3(8_2).png Graphic file (type png)
+<use bibliography/Figure/LN_DP3(8_2).png>
+Package pdftex.def Info: bibliography/Figure/LN_DP3(8_2).png  used on input line 639.
+(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 640.
+
+
+Package xcolor Warning: Incompatible color definition on input line 640.
+
+<bibliography/Figure/DP3_ARIMA.png, id=77, 745.1037pt x 395.3169pt>
 File: bibliography/Figure/DP3_ARIMA.png Graphic file (type png)
 <use bibliography/Figure/DP3_ARIMA.png>
-Package pdftex.def Info: bibliography/Figure/DP3_ARIMA.png  used on input line 586.
+Package pdftex.def Info: bibliography/Figure/DP3_ARIMA.png  used on input line 649.
 (pdftex.def)             Requested size: 194.13957pt x 102.99712pt.
 
+Package xcolor Warning: Incompatible color definition on input line 650.
 
-Package xcolor Warning: Incompatible color definition on input line 587.
 
+Package xcolor Warning: Incompatible color definition on input line 650.
 
-Package xcolor Warning: Incompatible color definition on input line 587.
-
-<bibliography/Figure/DP3_FFT.png, id=76, 955.4094pt x 364.9635pt>
+<bibliography/Figure/DP3_FFT.png, id=78, 955.4094pt x 364.9635pt>
 File: bibliography/Figure/DP3_FFT.png Graphic file (type png)
 <use bibliography/Figure/DP3_FFT.png>
-Package pdftex.def Info: bibliography/Figure/DP3_FFT.png  used on input line 596.
+Package pdftex.def Info: bibliography/Figure/DP3_FFT.png  used on input line 659.
 (pdftex.def)             Requested size: 194.13957pt x 74.15529pt.
 
-Package xcolor Warning: Incompatible color definition on input line 597.
+Package xcolor Warning: Incompatible color definition on input line 660.
 
 
-Package xcolor Warning: Incompatible color definition on input line 597.
-
-<bibliography/Figure/DP3_LN_CF&DP.png, id=77, 745.1037pt x 395.3169pt>
-File: bibliography/Figure/DP3_LN_CF&DP.png Graphic file (type png)
-<use bibliography/Figure/DP3_LN_CF&DP.png>
-Package pdftex.def Info: bibliography/Figure/DP3_LN_CF&DP.png  used on input line 606.
-(pdftex.def)             Requested size: 194.13957pt x 102.99712pt.
-
-Package xcolor Warning: Incompatible color definition on input line 607.
-
-
-Package xcolor Warning: Incompatible color definition on input line 607.
-
-
-Package xcolor Warning: Incompatible color definition on input line 612.
-
-
-Overfull \hbox (3.8932pt too wide) in paragraph at lines 615--638
- [][] 
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 638.
+Package xcolor Warning: Incompatible color definition on input line 660.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<bibliography/Figure/LN_DHT73.png, id=78, 411.2163pt x 298.4751pt>
-File: bibliography/Figure/LN_DHT73.png Graphic file (type png)
-<use bibliography/Figure/LN_DHT73.png>
-Package pdftex.def Info: bibliography/Figure/LN_DHT73.png  used on input line 646.
-(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
+<bibliography/Figure/DP3_LN_CF&DP.png, id=79, 745.1037pt x 395.3169pt>
+File: bibliography/Figure/DP3_LN_CF&DP.png Graphic file (type png)
+<use bibliography/Figure/DP3_LN_CF&DP.png>
+Package pdftex.def Info: bibliography/Figure/DP3_LN_CF&DP.png  used on input line 669.
+(pdftex.def)             Requested size: 194.13957pt x 102.99712pt.
 
 
-Package xcolor Warning: Incompatible color definition on input line 647.
+Package xcolor Warning: Incompatible color definition on input line 670.
 
 
-Package xcolor Warning: Incompatible color definition on input line 647.
+Package xcolor Warning: Incompatible color definition on input line 670.
 
-<bibliography/Figure/LN_DHT82.png, id=79, 411.2163pt x 298.4751pt>
-File: bibliography/Figure/LN_DHT82.png Graphic file (type png)
-<use bibliography/Figure/LN_DHT82.png>
-Package pdftex.def Info: bibliography/Figure/LN_DHT82.png  used on input line 656.
-(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
+<bibliography/Figure/LSTM_DP3(9_1).png, id=80, 423.5022pt x 298.4751pt>
+File: bibliography/Figure/LSTM_DP3(9_1).png Graphic file (type png)
+<use bibliography/Figure/LSTM_DP3(9_1).png>
+Package pdftex.def Info: bibliography/Figure/LSTM_DP3(9_1).png  used on input line 679.
+(pdftex.def)             Requested size: 194.13957pt x 136.82199pt.
 
-Package xcolor Warning: Incompatible color definition on input line 657.
-
-
-Package xcolor Warning: Incompatible color definition on input line 657.
-
-<bibliography/Figure/LN_DHT91.png, id=80, 411.2163pt x 298.4751pt>
-File: bibliography/Figure/LN_DHT91.png Graphic file (type png)
-<use bibliography/Figure/LN_DHT91.png>
-Package pdftex.def Info: bibliography/Figure/LN_DHT91.png  used on input line 666.
-(pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
-
-Package xcolor Warning: Incompatible color definition on input line 667.
+Package xcolor Warning: Incompatible color definition on input line 680.
 
 
-Package xcolor Warning: Incompatible color definition on input line 667.
+Package xcolor Warning: Incompatible color definition on input line 680.
+
+<bibliography/Figure/LightGBM_DP3(7_3).png, id=81, 423.5022pt x 298.4751pt>
+File: bibliography/Figure/LightGBM_DP3(7_3).png Graphic file (type png)
+<use bibliography/Figure/LightGBM_DP3(7_3).png>
+Package pdftex.def Info: bibliography/Figure/LightGBM_DP3(7_3).png  used on input line 689.
+(pdftex.def)             Requested size: 194.13957pt x 136.82199pt.
+
+Package xcolor Warning: Incompatible color definition on input line 690.
+
+
+Package xcolor Warning: Incompatible color definition on input line 690.
+
+
+Package xcolor Warning: Incompatible color definition on input line 695.
+
+
+Overfull \hbox (0.8773pt too wide) in paragraph at lines 698--721
+ [][] 
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 721.
+
+
+Underfull \vbox (badness 2781) has occurred while \output is active []
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 671.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 724.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1065,50 +1080,84 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[8 <./bibliography/Figure/LN_DP391.png> <./bibliography/Figure/DP3_ARIMA.png> <./bibliography/Figure/DP3_FFT.png> <./bibliography/Figure/DP3_LN_CF&DP.png> <./bibliography/Figure/LN_DHT73.png> <./bibliography/Figure/LN_DHT82.png>]
-<bibliography/Figure/DHT_ARIMA.png, id=90, 739.3221pt x 395.3169pt>
+[8 <./bibliography/Figure/LN_DP3(8_2).png> <./bibliography/Figure/DP3_ARIMA.png> <./bibliography/Figure/DP3_FFT.png> <./bibliography/Figure/DP3_LN_CF&DP.png> <./bibliography/Figure/LSTM_DP3(9_1).png> <./bibliography/Figure/LightGBM_DP3(7_3).png>]
+<bibliography/Figure/LN_DHT(9_1).png, id=91, 422.0568pt x 298.4751pt>
+File: bibliography/Figure/LN_DHT(9_1).png Graphic file (type png)
+<use bibliography/Figure/LN_DHT(9_1).png>
+Package pdftex.def Info: bibliography/Figure/LN_DHT(9_1).png  used on input line 729.
+(pdftex.def)             Requested size: 194.13957pt x 137.29565pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+<bibliography/Figure/DHT_ARIMA.png, id=92, 739.3221pt x 395.3169pt>
 File: bibliography/Figure/DHT_ARIMA.png Graphic file (type png)
 <use bibliography/Figure/DHT_ARIMA.png>
-Package pdftex.def Info: bibliography/Figure/DHT_ARIMA.png  used on input line 677.
+Package pdftex.def Info: bibliography/Figure/DHT_ARIMA.png  used on input line 739.
 (pdftex.def)             Requested size: 194.13957pt x 103.8054pt.
 
+Package xcolor Warning: Incompatible color definition on input line 740.
 
-Package xcolor Warning: Incompatible color definition on input line 678.
 
+Package xcolor Warning: Incompatible color definition on input line 740.
 
-Package xcolor Warning: Incompatible color definition on input line 678.
-
-<bibliography/Figure/DHT_FFT.png, id=91, 948.9051pt x 364.9635pt>
+<bibliography/Figure/DHT_FFT.png, id=93, 948.9051pt x 364.9635pt>
 File: bibliography/Figure/DHT_FFT.png Graphic file (type png)
 <use bibliography/Figure/DHT_FFT.png>
-Package pdftex.def Info: bibliography/Figure/DHT_FFT.png  used on input line 687.
+Package pdftex.def Info: bibliography/Figure/DHT_FFT.png  used on input line 749.
 (pdftex.def)             Requested size: 194.13957pt x 74.66763pt.
 
-Package xcolor Warning: Incompatible color definition on input line 688.
+Package xcolor Warning: Incompatible color definition on input line 750.
 
 
-Package xcolor Warning: Incompatible color definition on input line 688.
+Package xcolor Warning: Incompatible color definition on input line 750.
 
-<bibliography/Figure/DHT_LN_CF&DP.png, id=92, 739.3221pt x 395.3169pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<bibliography/Figure/DHT_LN_CF&DP.png, id=94, 739.3221pt x 395.3169pt>
 File: bibliography/Figure/DHT_LN_CF&DP.png Graphic file (type png)
 <use bibliography/Figure/DHT_LN_CF&DP.png>
-Package pdftex.def Info: bibliography/Figure/DHT_LN_CF&DP.png  used on input line 697.
+Package pdftex.def Info: bibliography/Figure/DHT_LN_CF&DP.png  used on input line 759.
 (pdftex.def)             Requested size: 194.13957pt x 103.8054pt.
 
-Package xcolor Warning: Incompatible color definition on input line 698.
+
+Package xcolor Warning: Incompatible color definition on input line 760.
 
 
-Package xcolor Warning: Incompatible color definition on input line 698.
+Package xcolor Warning: Incompatible color definition on input line 760.
+
+<bibliography/Figure/LSTM_DHT(7_3).png, id=95, 422.0568pt x 298.4751pt>
+File: bibliography/Figure/LSTM_DHT(7_3).png Graphic file (type png)
+<use bibliography/Figure/LSTM_DHT(7_3).png>
+Package pdftex.def Info: bibliography/Figure/LSTM_DHT(7_3).png  used on input line 769.
+(pdftex.def)             Requested size: 194.13957pt x 137.29565pt.
+
+Package xcolor Warning: Incompatible color definition on input line 770.
 
 
-Package xcolor Warning: Incompatible color definition on input line 703.
+Package xcolor Warning: Incompatible color definition on input line 770.
+
+<bibliography/Figure/LightGBM_DHT(8_2).png, id=96, 422.0568pt x 298.4751pt>
+File: bibliography/Figure/LightGBM_DHT(8_2).png Graphic file (type png)
+<use bibliography/Figure/LightGBM_DHT(8_2).png>
+Package pdftex.def Info: bibliography/Figure/LightGBM_DHT(8_2).png  used on input line 779.
+(pdftex.def)             Requested size: 194.13957pt x 137.29565pt.
+
+Package xcolor Warning: Incompatible color definition on input line 780.
 
 
-Package xcolor Warning: Incompatible color definition on input line 709.
+Package xcolor Warning: Incompatible color definition on input line 780.
+
+
+Package xcolor Warning: Incompatible color definition on input line 785.
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 728.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 789.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1125,7 +1174,32 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[9 <./bibliography/Figure/LN_DHT91.png> <./bibliography/Figure/DHT_ARIMA.png> <./bibliography/Figure/DHT_FFT.png> <./bibliography/Figure/DHT_LN_CF&DP.png>] (Report.aux)
+[9 <./bibliography/Figure/LN_DHT(9_1).png> <./bibliography/Figure/DHT_ARIMA.png> <./bibliography/Figure/DHT_FFT.png> <./bibliography/Figure/DHT_LN_CF&DP.png> <./bibliography/Figure/LSTM_DHT(7_3).png> <./bibliography/Figure/LightGBM_DHT(8_2).png>]
+
+Package xcolor Warning: Incompatible color definition on input line 791.
+
+File: bibliography/Logo_HTTT.png Graphic file (type png)
+<use bibliography/Logo_HTTT.png>
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 810.
+(pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[10
+
+] (Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1139,17 +1213,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5544 strings out of 474486
- 90162 string characters out of 5753571
- 1956542 words of memory out of 5000000
- 27710 multiletter control sequences out of 15000+600000
+ 5565 strings out of 474486
+ 91391 string characters out of 5753571
+ 1959542 words of memory out of 5000000
+ 27731 multiletter control sequences out of 15000+600000
  648688 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,70p,1080b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,70p,781b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Report.pdf (9 pages, 1259687 bytes).
+Output written on Report.pdf (10 pages, 1352800 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 188 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
