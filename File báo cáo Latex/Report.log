@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.30)  11 JUN 2024 11:09
 =======
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.30)  11 JUN 2024 11:07
 >>>>>>> eea90f1 (rp)
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.30)  13 JUN 2024 22:04
+>>>>>>> b5d8f91 (update week7)
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,6 +831,7 @@ Package xcolor Warning: Incompatible color definition on input line 393.
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
 Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 396.
+<<<<<<< HEAD
 =======
 
 Package xcolor Warning: Incompatible color definition on input line 269.
@@ -843,6 +848,8 @@ File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
 Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 327.
 >>>>>>> eea90f1 (rp)
+=======
+>>>>>>> b5d8f91 (update week7)
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -861,6 +868,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 <<<<<<< HEAD
 [5]
+<<<<<<< HEAD
 
 Package xcolor Warning: Incompatible color definition on input line 428.
 
@@ -895,12 +903,23 @@ Package xcolor Warning: Incompatible color definition on input line 389.
 
 Underfull \hbox (badness 10000) in paragraph at lines 390--391
 >>>>>>> eea90f1 (rp)
+=======
+
+Package xcolor Warning: Incompatible color definition on input line 428.
+
+
+Package xcolor Warning: Incompatible color definition on input line 429.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+>>>>>>> b5d8f91 (update week7)
 
  []
 
 
 <<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 431--433
+<<<<<<< HEAD
 =======
 Underfull \hbox (badness 10000) in paragraph at lines 391--393
 
@@ -933,6 +952,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--395
 
 
 <<<<<<< HEAD
+=======
+
+ []
+
+
+>>>>>>> b5d8f91 (update week7)
 Underfull \hbox (badness 10000) in paragraph at lines 433--435
 
  []
@@ -942,12 +967,15 @@ Package xcolor Warning: Incompatible color definition on input line 440.
 
 
 Overfull \hbox (0.8773pt too wide) in paragraph at lines 443--466
+<<<<<<< HEAD
 =======
 Package xcolor Warning: Incompatible color definition on input line 400.
 
 
 Overfull \hbox (7.22133pt too wide) in paragraph at lines 403--426
 >>>>>>> eea90f1 (rp)
+=======
+>>>>>>> b5d8f91 (update week7)
  [][] 
  []
 
@@ -972,6 +1000,7 @@ File: bibliography/Figure/LN_AMV82.png Graphic file (type png)
 Package pdftex.def Info: bibliography/Figure/LN_AMV82.png  used on input line 484.
 (pdftex.def)             Requested size: 194.13957pt x 140.91637pt.
 
+<<<<<<< HEAD
 Package xcolor Warning: Incompatible color definition on input line 514.
 
 
@@ -981,6 +1010,9 @@ Overfull \hbox (0.8773pt too wide) in paragraph at lines 517--540
 
 
 Package xcolor Warning: Incompatible color definition on input line 540.
+=======
+Package xcolor Warning: Incompatible color definition on input line 485.
+>>>>>>> b5d8f91 (update week7)
 
 
 
@@ -1039,6 +1071,7 @@ Package pdftex.def Info: bibliography/Figure/LN_AMV82.png  used on input line 44
 Package xcolor Warning: Incompatible color definition on input line 445.
 
 
+<<<<<<< HEAD
 Package xcolor Warning: Incompatible color definition on input line 445.
 
 <bibliography/Figure/LN_AMV91.png, id=51, 411.2163pt x 298.4751pt>
@@ -1078,6 +1111,34 @@ Package xcolor Warning: Incompatible color definition on input line 475.
 File: bibliography/Figure/AMV_LN_CF&DP.png Graphic file (type png)
 <use bibliography/Figure/AMV_LN_CF&DP.png>
 Package pdftex.def Info: bibliography/Figure/AMV_LN_CF&DP.png  used on input line 484.
+=======
+<bibliography/Figure/AMV_ARIMA.png, id=60, 782.17218pt x 405.76593pt>
+File: bibliography/Figure/AMV_ARIMA.png Graphic file (type png)
+<use bibliography/Figure/AMV_ARIMA.png>
+Package pdftex.def Info: bibliography/Figure/AMV_ARIMA.png  used on input line 504.
+(pdftex.def)             Requested size: 194.13957pt x 100.71063pt.
+
+Package xcolor Warning: Incompatible color definition on input line 505.
+
+
+Package xcolor Warning: Incompatible color definition on input line 505.
+
+<bibliography/Figure/AMV_FFT.png, id=61, 948.9051pt x 364.9635pt>
+File: bibliography/Figure/AMV_FFT.png Graphic file (type png)
+<use bibliography/Figure/AMV_FFT.png>
+Package pdftex.def Info: bibliography/Figure/AMV_FFT.png  used on input line 514.
+(pdftex.def)             Requested size: 194.13957pt x 74.66763pt.
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+
+Package xcolor Warning: Incompatible color definition on input line 515.
+
+<bibliography/Figure/AMV_LN_CF&DP.png, id=62, 992.95969pt x 503.63156pt>
+File: bibliography/Figure/AMV_LN_CF&DP.png Graphic file (type png)
+<use bibliography/Figure/AMV_LN_CF&DP.png>
+Package pdftex.def Info: bibliography/Figure/AMV_LN_CF&DP.png  used on input line 524.
+>>>>>>> b5d8f91 (update week7)
 (pdftex.def)             Requested size: 194.13957pt x 98.4652pt.
 
 Package xcolor Warning: Incompatible color definition on input line 485.
@@ -1368,6 +1429,7 @@ Package pdftex.def Info: bibliography/Figure/DP3_LN_CF&DP.png  used on input lin
 Package xcolor Warning: Incompatible color definition on input line 577.
 
 
+<<<<<<< HEAD
 Package xcolor Warning: Incompatible color definition on input line 577.
 
 
@@ -1405,6 +1467,8 @@ Package pdftex.def Info: bibliography/Figure/DP3_LightGBM(7_3).png  used on inpu
 Package xcolor Warning: Incompatible color definition on input line 657.
 =======
 [7 <./bibliography/Figure/AMV_LN_CF&DP.png> <./bibliography/Figure/LN_DP373.png> <./bibliography/Figure/LN_DP382.png> <./bibliography/Figure/LN_DP391.png> <./bibliography/Figure/DP3_ARIMA.png> <./bibliography/Figure/DP3_FFT.png>]
+=======
+>>>>>>> b5d8f91 (update week7)
 
 Package xcolor Warning: Incompatible color definition on input line 582.
 
@@ -1594,11 +1658,17 @@ File: bibliography/Figure/DHT_LN_CF&DP.png Graphic file (type png)
 Package pdftex.def Info: bibliography/Figure/DHT_LN_CF&DP.png  used on input line 747.
 (pdftex.def)             Requested size: 194.13957pt x 97.35675pt.
 
+<<<<<<< HEAD
 Package xcolor Warning: Incompatible color definition on input line 740.
 
 Package xcolor Warning: Incompatible color definition on input line 748.
 
 Package xcolor Warning: Incompatible color definition on input line 740.
+=======
+
+Package xcolor Warning: Incompatible color definition on input line 748.
+
+>>>>>>> b5d8f91 (update week7)
 
 Package xcolor Warning: Incompatible color definition on input line 748.
 
@@ -1626,6 +1696,7 @@ Package xcolor Warning: Incompatible color definition on input line 768.
 
 
 Package xcolor Warning: Incompatible color definition on input line 773.
+<<<<<<< HEAD
 
 
 Package xcolor Warning: Incompatible color definition on input line 779.
@@ -1645,6 +1716,15 @@ File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
 Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 698.
 >>>>>>> eea90f1 (rp)
+=======
+
+
+Package xcolor Warning: Incompatible color definition on input line 779.
+
+File: bibliography/Logo_HTTT.png Graphic file (type png)
+<use bibliography/Logo_HTTT.png>
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 798.
+>>>>>>> b5d8f91 (update week7)
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1663,11 +1743,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 <<<<<<< HEAD
 [10 <./bibliography/Figure/DHT_FFT.png> <./bibliography/Figure/DHT_LN_CF&DP.png> <./bibliography/Figure/DHT_LSTM(8_2).png> <./bibliography/Figure/DHT_LightGBM(8_2).png>] (Report.aux)
+<<<<<<< HEAD
 =======
 [9
 
  <./bibliography/Figure/DHT_LN_CF&DP.png>] (Report.aux)
 >>>>>>> eea90f1 (rp)
+=======
+>>>>>>> b5d8f91 (update week7)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-05-08>
@@ -1687,6 +1770,7 @@ Here is how much of TeX's memory you used:
  1959907 words of memory out of 5000000
  27923 multiletter control sequences out of 15000+600000
  648688 words of font info for 163 fonts, out of 8000000 for 9000
+<<<<<<< HEAD
  1141 hyphenation exceptions out of 8191
  57i,13n,79p,1095b,416s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
@@ -1706,6 +1790,14 @@ Output written on Report.pdf (9 pages, 1459588 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
 >>>>>>> eea90f1 (rp)
+=======
+ 1141 hyphenation exceptions out of 8191
+ 57i,13n,79p,1095b,416s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Report.pdf (10 pages, 1672777 bytes).
+PDF statistics:
+ 196 PDF objects out of 1000 (max. 8388607)
+>>>>>>> b5d8f91 (update week7)
  0 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
