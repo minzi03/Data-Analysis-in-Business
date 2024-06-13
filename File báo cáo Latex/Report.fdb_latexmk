@@ -1,6 +1,7 @@
 # Fdb version 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ["pdflatex"] 1718078967.82466 "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" "Report.pdf" "Report" 1718078971.25192 0
 =======
 ["pdflatex"] 1718078826.71123 "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" "Report.pdf" "Report" 1718078830.05103 0
@@ -8,6 +9,9 @@
 =======
 ["pdflatex"] 1718291093.67633 "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" "Report.pdf" "Report" 1718291096.6255 0
 >>>>>>> b5d8f91 (update week7)
+=======
+["pdflatex"] 1718291093.67633 "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" "Report.pdf" "Report" 1718291096.6255 0
+>>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136765053 1292 bd42be2f344128bff6d35d98474adfe3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8t.tfm" 1136765053 1384 4632f5e54900a7dadbb83f555bc61e56 ""
@@ -86,7 +90,10 @@
   "C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex" 1656236919 7677 9cb1a74d945bc9331f2181c0a59ff34a ""
   "C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
   "C:/Program Files/MiKTeX/tex/latex/algorithms/algorithmic.sty" 1251549064 9550 793e9d5a71e74e730d97f6bf5d7e2bca ""
+<<<<<<< HEAD
   "C:/Program Files/MiKTeX/tex/latex/algorithms/algorithmic.sty" 1251549064 9550 793e9d5a71e74e730d97f6bf5d7e2bca ""
+=======
+>>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
   "C:/Program Files/MiKTeX/tex/latex/amsfonts/amsfonts.sty" 1358197772 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "C:/Program Files/MiKTeX/tex/latex/amsfonts/amssymb.sty" 1358197772 13829 94730e64147574077f8ecfea9bb69af4 ""
   "C:/Program Files/MiKTeX/tex/latex/amsfonts/umsa.fd" 1358197772 961 6518c6525a34feb5e8250ffa91731cff ""
@@ -102,11 +109,17 @@
   "C:/Program Files/MiKTeX/tex/latex/colortbl/colortbl.sty" 1716806070 12345 7bca4ad292ae2b62fed1766b543d04d5 ""
   "C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Program Files/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
+<<<<<<< HEAD
   "C:/Program Files/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Program Files/MiKTeX/tex/latex/graphics-def/pdftex.def" 1713599642 19440 9da9dcbb27470349a580fca7372d454b ""
   "C:/Program Files/MiKTeX/tex/latex/graphics-def/pdftex.def" 1713599642 19440 9da9dcbb27470349a580fca7372d454b ""
+=======
+  "C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
+  "C:/Program Files/MiKTeX/tex/latex/graphics-def/pdftex.def" 1713599642 19440 9da9dcbb27470349a580fca7372d454b ""
+>>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
   "C:/Program Files/MiKTeX/tex/latex/graphics/color.sty" 1665067579 7233 e46ce9241d2b2ca2a78155475fdd557a ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty" 1665067579 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty" 1665067579 8010 a8d949cbdbc5c983593827c9eec252e1 ""
@@ -120,6 +133,7 @@
   "C:/Program Files/MiKTeX/tex/latex/psnfss/t1phv.fd" 1585253778 1536 47067fbe7c3ffed1ede7aaa7b8549d7a ""
   "C:/Program Files/MiKTeX/tex/latex/psnfss/t1ptm.fd" 1585253778 817 61d7da1e9f9e74989b196d147e623736 ""
   "C:/Program Files/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
+<<<<<<< HEAD
   "C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Program Files/MiKTeX/tex/latex/multirow/multirow.sty" 1615976118 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "C:/Program Files/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
@@ -127,6 +141,8 @@
   "C:/Program Files/MiKTeX/tex/latex/psnfss/t1phv.fd" 1585253778 1536 47067fbe7c3ffed1ede7aaa7b8549d7a ""
   "C:/Program Files/MiKTeX/tex/latex/psnfss/t1ptm.fd" 1585253778 817 61d7da1e9f9e74989b196d147e623736 ""
   "C:/Program Files/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
+=======
+>>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
   "C:/Program Files/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
@@ -134,6 +150,7 @@
   "C:/Users/trieu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717022755 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/trieu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1717022796 24234116 e6ffcd9b6059dbd51be9d920dca29fda ""
   "IEEEtran.cls" 1718078642 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   "Report.aux" 1718078970 8846 41834763810cd6a53b842999a06af272 "pdflatex"
@@ -146,6 +163,10 @@
   "Report.aux" 1718291096 8846 41834763810cd6a53b842999a06af272 "pdflatex"
   "Report.tex" 1718291093 42290 2675a877f4d3b4dac26e7aed033510a9 ""
 >>>>>>> b5d8f91 (update week7)
+=======
+  "Report.aux" 1718291096 8846 41834763810cd6a53b842999a06af272 "pdflatex"
+  "Report.tex" 1718291093 42290 2675a877f4d3b4dac26e7aed033510a9 ""
+>>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
   "bibliography/Figure/AMV_ARIMA.png" 1716799505 55627 b85949f65c3c62d67cba9fc634197cef ""
   "bibliography/Figure/AMV_FFT.png" 1716799505 64481 54c049b0ab3391b2602946a0bb1e4965 ""
   "bibliography/Figure/AMV_LN_CF&DP.png" 1716799505 123781 a16522e18066d4f011b383de311c7dcd ""
@@ -180,6 +201,7 @@
   "bibliography/Logo_HTTT.png" 1716799505 201761 a75644caf3356abb594a9638af377093 ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" 1718078962 42290 2675a877f4d3b4dac26e7aed033510a9 ""
 =======
   "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" 1718078820 37783 24ef451d301444a5d0c5161dd9bd7340 ""
@@ -187,6 +209,9 @@
 =======
   "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" 1718291093 42290 2675a877f4d3b4dac26e7aed033510a9 ""
 >>>>>>> b5d8f91 (update week7)
+=======
+  "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" 1718291093 42290 2675a877f4d3b4dac26e7aed033510a9 ""
+>>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
   "ieeeojies.cls" 1718078642 44947 6bc34e7049a62b699b2eeb2c62fe4d39 ""
   (generated)
   "Report.aux"
