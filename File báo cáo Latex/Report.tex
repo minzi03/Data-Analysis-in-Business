@@ -8,7 +8,7 @@
 \usepackage[table]{xcolor}
 \usepackage{multirow}
 \usepackage{multicol}
-\usepackage{float}
+\usepackage{float} 
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -522,11 +522,13 @@ Where: \\
          \hline
          \multirow{2}{*}{LN}& 7:3 & 7781.26 & 49.62 & 0.19\\ & 8:2 & 9119.01 & 67.34 & 0.27\\ & \textbf{9:1}& 6907.31& 51.82 & 0.17\\
          \hline
-         \multirow{2}{*}{GRU} & {7:3}	& 14152.79 & 2824067.22\% &  83.42\\ & \textbf{8:2} & 13295.38 & 2769349.65\% & 82.76 \\ & 9:1 & 14165.99 & 2642183.93\% & 83.34 \\
+         \multirow{2}{*}{RNN} & 7:3&1276.19&0.3207&0.0801\\ & \textbf{8:2}&135.78&0.0264&0.0011\\ & 9:1  &264.547 &0.0665 &0.0054 \\
+         \hline
+         \multirow{2}{*}{GRU} & \textbf{7:3}	& & & \\ & 8:2 & & & \\ & 9:1 & & & \\
          \hline
          \multirow{2}{*}{ARIMA} & 7:3 & 558.44 & 11.50\% & 0.02 \\ & 8:2 & 801.64 & 18.26\% & 0.04 \\ & \textbf{9:1} & 290.25 & 5.51\% & 0.00\\
          \hline
-         \multirow{2}{*}{FFT}& \textbf{7:3}	& 11243.57& 70.86\%& 1.67\\ & 8:2 & 9313.02& 67.90\%& 1.35\\ & 9:1 & 9666.76& 71.17\%& 1.56\\
+         \multirow{2}{*}{FFT}& 7:3	& 0.0829& 4151& 0.0054\\ & 8:2 & 0.05950& 0.9657& 0.003\\ & \textbf{9:1} & 0.0259& 0.5279& 0.0006\\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18\% & 0.96 \\ & 8:2 &2031.85	& 44.21\%&  0.15 \\ & \textbf{9:1} &1441.58&33.21\% & 0.10\\
          \hline
@@ -553,6 +555,17 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/RNN_82_AMV.png}
+    \caption{RNN model's result with 8:2 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
     \includegraphics[width=\linewidth]{bibliography/Figure/AMV_ARIMA.png}
     \caption{Arima model's result with 8:2 splitting proportion}
     \label{fig8}
@@ -563,8 +576,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_FFT.png}
-    \caption{FFT model's result with 7:3 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_91_AMV.png}
+    \caption{FFT model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -620,12 +633,13 @@ Where: \\
          \hline
          \multirow{2}{*}{LN}& 7:3 & 7781.26 & 49.62 & 0.19\\ & 8:2 & 9119.01 & 67.34 & 0.27\\ & \textbf{9:1}& 6907.31& 51.82 & 0.17\\
          \hline
-         \multirow{2}{*}{GRU} & \textbf{9:1}	& 75767.73 & 19753800.72\% & 119.04  \\ & 8:2 & 67270.05 & 22216561.14\% & 117.49 \\ & 7:3 & 68588.57 & 22310363.75\% & 117.89 \\
+         \multirow{2}{*}{RNN} & 7:3&1675.09&0.0412&0.0037\\ & 8:2&2503.94&0.0700&0.0081\\ & \textbf{9:1} & 1499.11&0.0275 &0.0021 \\
+         \hline
+         \multirow{2}{*}{GRU} & \textbf{7:3}	& & & \\ & 8:2 & & & \\ & 9:1 & & & \\
          \hline
          \multirow{2}{*}{ARIMA} & 7:3 & 27750.14  & 39.01\%  &  0.36 \\ & 8:2 & 7936.36  & 10.027\% & 0.01 \\ & \textbf{9:1} & 6394.82 & 7.79\% & 0.01 \\
          \hline
-         \multirow{2}{*}{FFT}& 7:3& 27995.79& 29.10\%& 0.10\\ & 8:2 & 21824.13& 13.88\%& 0.05\\ & \textbf{9:1}& 10698.11& 14.28\%& 0.02
-\\
+         \multirow{2}{*}{FFT}& 7:3& 0.2076& 61.27\%&0.0232 \\ & 8:2 & 0.1987& 59.18\%& 0.0224\\ & \textbf{9:1}& 0.1352& 37.86\%& 0.0103\\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 54681.37 & 69.13 & 0.31 \\ & {8:2} & 48774.18 & 67.56 & 0.28 \\ & \textbf{9:1} & 45471.00 &66.45&0.26\\
          \hline
@@ -652,6 +666,16 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/RNN_91_DP3.png}
+    \caption{RNN model's result with 9:1 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
     \includegraphics[width=\linewidth]{bibliography/Figure/DP3_ARIMA.png}
     \caption{ARIMA model's result with 8:2 splitting proportion}
     \label{fig8}
@@ -662,7 +686,7 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/DP3_FFT.png}
+    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_91_DP3.png}
     \caption{FFT model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
@@ -719,11 +743,13 @@ Where: \\
          \hline
          \multirow{2}{*}{LN}& 7:3 & 7781.26 & 49.62 & 0.19\\ & 8:2 & 9119.01 & 67.34 & 0.27\\ & \textbf{9:1}& 6907.31& 51.82 & 0.17\\
          \hline
-         \multirow{2}{*}{GRU} & \textbf{9:1}	& 10593.41 & 32219283.43\% & 85.16 \\ & 8:2 & 12037.09 & inf & 86.43 \\ & 7:3 & 13818.07 & inf  & 87.84 \\
+         \multirow{2}{*}{RNN} & 7:3&3065.26&0.0401&0.0026\\ & 8:2&2855.37&0.0276&0.0018\\ & \textbf{9:1} &2327.70 &0.0319 & 0.0011\\
+         \hline
+         \multirow{2}{*}{GRU} & \textbf{7:3}	& & & \\ & 8:2 & & & \\ & 9:1 & & & \\
          \hline
          \multirow{2}{*}{ARIMA} & 7:3 & 9640.50 & 29.78\% &0.24 \\ & 8:2 & 9305.45 &31.50\% & 0.18\\ & \textbf{9:1} &5570.55 &12.58\% & 0.04\\
          \hline
-         \multirow{2}{*}{FFT}& \textbf{7:3}	& 6287.60& 36.38\%& 0.11\\ & 8:2 & 9919.21& 72.76\%& 0.32\\ & 9:1 & 12859.83& 117.69\%&  0.61\\
+         \multirow{2}{*}{FFT}& 7:3	& 0.5714& 63.88\%& 0.0871\\ & 8:2 & 0.5188& 57.93\%& 0.0862\\ & \textbf{9:1} & 0.3351& 34.96\%& 0.3354\\
          \hline
          \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & {8:2} &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
          \hline
@@ -750,6 +776,16 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/RNN_91_DHT.png}
+    \caption{RNN model's result with 9:1 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
     \includegraphics[width=\linewidth]{bibliography/Figure/DHT_ARIMA.png}
     \caption{Arima model's result with 8:2 splitting proportion}
     \label{fig8}
@@ -760,8 +796,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/DHT_FFT.png}
-    \caption{FFT model's result with 7:3 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_91_DHT.png}
+    \caption{FFT model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
