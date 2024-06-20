@@ -1,14 +1,14 @@
-PWD c:\Users\khaqt\OneDrive\Máy tính\BA\Code\IS403_O22_HTCL_2\File báo cáo Latex
-INPUT C:\Users\khaqt\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\khaqt\OneDrive\Máy tính\BA\Code\IS403_O22_HTCL_2\File báo cáo Latex\Report.tex
+PWD c:\Users\trieu\OneDrive\Documents\HK2_2024\IS403\IS403_BA\IS403_O22_HTCL_2\File báo cáo Latex
+INPUT C:\Users\trieu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\trieu\OneDrive\Documents\HK2_2024\IS403\IS403_BA\IS403_O22_HTCL_2\File báo cáo Latex\Report.tex
 OUTPUT Report.log
 INPUT .\ieeeojies.cls
 INPUT ieeeojies.cls
 INPUT .\IEEEtran.cls
 INPUT IEEEtran.cls
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -58,7 +58,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\keyval.tex
-INPUT C:\Users\khaqt\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\trieu\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -70,8 +70,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\cite\cite.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
@@ -86,8 +86,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\algorithms\algorithmic.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\algorithms\algorithmic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\algorithms\algorithmic.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
@@ -108,23 +108,23 @@ INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Report.aux
 INPUT .\Report.aux
 INPUT Report.aux
 OUTPUT Report.aux
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1ptm.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1ptm.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -134,9 +134,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1phv.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1phv.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
@@ -286,9 +286,9 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT .\bibliography\Figure\LN_model.png
 INPUT .\bibliography\Figure\LN_model.png
@@ -302,6 +302,9 @@ INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 INPUT .\bibliography\Figure\LSTM_model.png
 INPUT .\bibliography\Figure\LSTM_model.png
 INPUT .\bibliography\Figure\LSTM_model.png
@@ -313,64 +316,46 @@ INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1pcr.fd
-INPUT C:\Users\khaqt\AppData\Roaming\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-=======
->>>>>>> eea90f1 (rp)
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-<<<<<<< HEAD
+INPUT .\bibliography\Figure\LightGBM_model.png
+INPUT .\bibliography\Figure\LightGBM_model.png
+INPUT .\bibliography\Figure\LightGBM_model.png
+INPUT .\bibliography\Figure\LightGBM_model.png
+INPUT .\bibliography\Figure\LightGBM_model.png
+INPUT .\bibliography\Figure\LightGBM_model.png
+INPUT .\bibliography\Figure\LightGBM_model.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-<<<<<<< HEAD
-=======
->>>>>>> eea90f1 (rp)
-=======
->>>>>>> b5d8f91 (update week7)
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV73.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-INPUT .\bibliography\Figure\LN_AMV82.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\LN_AMV(7_3).png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
+INPUT .\bibliography\Figure\RNN_82_AMV.png
 INPUT .\bibliography\Figure\AMV_ARIMA.png
 INPUT .\bibliography\Figure\AMV_ARIMA.png
 INPUT .\bibliography\Figure\AMV_ARIMA.png
@@ -378,13 +363,13 @@ INPUT .\bibliography\Figure\AMV_ARIMA.png
 INPUT .\bibliography\Figure\AMV_ARIMA.png
 INPUT .\bibliography\Figure\AMV_ARIMA.png
 INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
+INPUT .\bibliography\Figure\FFT_91_AMV.png
 INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
 INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
 INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
@@ -392,94 +377,40 @@ INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
 INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
 INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
 INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
->>>>>>> eea90f1 (rp)
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LSTM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
+INPUT .\bibliography\Figure\LightGBM_AMV(8_2).png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\LN_AMV91.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_ARIMA.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_FFT.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LN_CF&DP.png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LSTM(7_3).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Figure\AMV_LightGBM(9_1).png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> eea90f1 (rp)
-=======
->>>>>>> b5d8f91 (update week7)
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP373.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP382.png
-INPUT .\bibliography\Figure\LN_DP391.png
-INPUT .\bibliography\Figure\LN_DP391.png
-INPUT .\bibliography\Figure\LN_DP391.png
-INPUT .\bibliography\Figure\LN_DP391.png
-INPUT .\bibliography\Figure\LN_DP391.png
-INPUT .\bibliography\Figure\LN_DP391.png
-INPUT .\bibliography\Figure\LN_DP391.png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\LN_DP3(8_2).png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
+INPUT .\bibliography\Figure\RNN_91_DP3.png
 INPUT .\bibliography\Figure\DP3_ARIMA.png
 INPUT .\bibliography\Figure\DP3_ARIMA.png
 INPUT .\bibliography\Figure\DP3_ARIMA.png
@@ -487,13 +418,13 @@ INPUT .\bibliography\Figure\DP3_ARIMA.png
 INPUT .\bibliography\Figure\DP3_ARIMA.png
 INPUT .\bibliography\Figure\DP3_ARIMA.png
 INPUT .\bibliography\Figure\DP3_ARIMA.png
-INPUT .\bibliography\Figure\DP3_FFT.png
-INPUT .\bibliography\Figure\DP3_FFT.png
-INPUT .\bibliography\Figure\DP3_FFT.png
-INPUT .\bibliography\Figure\DP3_FFT.png
-INPUT .\bibliography\Figure\DP3_FFT.png
-INPUT .\bibliography\Figure\DP3_FFT.png
-INPUT .\bibliography\Figure\DP3_FFT.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
+INPUT .\bibliography\Figure\FFT_91_DP3.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
@@ -501,66 +432,38 @@ INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
 INPUT .\bibliography\Figure\DP3_LN_CF&DP.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-INPUT .\bibliography\Figure\DP3_LSTM(9_1).png
-<<<<<<< HEAD
-=======
->>>>>>> eea90f1 (rp)
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
+INPUT .\bibliography\Figure\LSTM_DP3(9_1).png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-INPUT .\bibliography\Figure\DP3_LightGBM(7_3).png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> eea90f1 (rp)
-=======
->>>>>>> b5d8f91 (update week7)
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT73.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT82.png
-INPUT .\bibliography\Figure\LN_DHT91.png
-INPUT .\bibliography\Figure\LN_DHT91.png
-INPUT .\bibliography\Figure\LN_DHT91.png
-INPUT .\bibliography\Figure\LN_DHT91.png
-INPUT .\bibliography\Figure\LN_DHT91.png
-INPUT .\bibliography\Figure\LN_DHT91.png
-INPUT .\bibliography\Figure\LN_DHT91.png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DP3(7_3).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\LN_DHT(9_1).png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
+INPUT .\bibliography\Figure\RNN_91_DHT.png
 INPUT .\bibliography\Figure\DHT_ARIMA.png
 INPUT .\bibliography\Figure\DHT_ARIMA.png
 INPUT .\bibliography\Figure\DHT_ARIMA.png
@@ -568,17 +471,13 @@ INPUT .\bibliography\Figure\DHT_ARIMA.png
 INPUT .\bibliography\Figure\DHT_ARIMA.png
 INPUT .\bibliography\Figure\DHT_ARIMA.png
 INPUT .\bibliography\Figure\DHT_ARIMA.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Figure\DHT_FFT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
-INPUT .\bibliography\Logo_HTTT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
+INPUT .\bibliography\Figure\FFT_91_DHT.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
@@ -586,36 +485,24 @@ INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
 INPUT .\bibliography\Figure\DHT_LN_CF&DP.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LSTM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-INPUT .\bibliography\Figure\DHT_LightGBM(8_2).png
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
->>>>>>> eea90f1 (rp)
-=======
->>>>>>> b5d8f91 (update week7)
-=======
->>>>>>> e4f0591aa3475f4043f47a21935db34840d69d97
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LSTM_DHT(7_3).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
+INPUT .\bibliography\Figure\LightGBM_DHT(8_2).png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT .\bibliography\Logo_HTTT.png
 INPUT .\bibliography\Logo_HTTT.png
