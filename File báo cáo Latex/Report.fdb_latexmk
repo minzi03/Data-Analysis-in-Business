@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1718900279.29573 "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" "Report.pdf" "Report" 1718900285.55544 0
+["pdflatex"] 1718901003.12556 "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" "Report.pdf" "Report" 1718901009.68366 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136765053 1292 bd42be2f344128bff6d35d98474adfe3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8t.tfm" 1136765053 1384 4632f5e54900a7dadbb83f555bc61e56 ""
@@ -116,8 +116,8 @@
   "C:/Users/trieu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717022755 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/trieu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1717022796 24234116 e6ffcd9b6059dbd51be9d920dca29fda ""
   "IEEEtran.cls" 1718078642 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "Report.aux" 1718900285 8909 fad43c838c6dafedc38f06de167f9142 "pdflatex"
-  "Report.tex" 1718900273 45099 fdd9c99c7c650c7361a129272ce8b520 ""
+  "Report.aux" 1718901009 8909 fad43c838c6dafedc38f06de167f9142 "pdflatex"
+  "Report.tex" 1718900993 45099 fdd9c99c7c650c7361a129272ce8b520 ""
   "bibliography/Figure/AMV_ARIMA.png" 1718296954 63455 e5ffbc5a67172e3163d11862ae9ad599 ""
   "bibliography/Figure/AMV_LN_CF&DP.png" 1718296954 68585 155b60f696c73af8dd3193d5a2d2f726 ""
   "bibliography/Figure/AMVboxplot.png" 1716799505 9283 05f6880827b8e861bf616c26d0dce9d3 ""
@@ -149,7 +149,7 @@
   "bibliography/Figure/RNN_91_DHT.png" 1718898754 71315 2e1c214cbcce81410bd60b02cd999809 ""
   "bibliography/Figure/RNN_91_DP3.png" 1718898754 75973 5dace8241e6286306f5ea4c64b9c3d0b ""
   "bibliography/Logo_HTTT.png" 1716799505 201761 a75644caf3356abb594a9638af377093 ""
-  "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" 1718900273 45099 fdd9c99c7c650c7361a129272ce8b520 ""
+  "c:/Users/trieu/OneDrive/Documents/HK2_2024/IS403/IS403_BA/IS403_O22_HTCL_2/File báo cáo Latex/Report.tex" 1718900993 45099 fdd9c99c7c650c7361a129272ce8b520 ""
   "ieeeojies.cls" 1718078642 44947 6bc34e7049a62b699b2eeb2c62fe4d39 ""
   (generated)
   "Report.aux"
