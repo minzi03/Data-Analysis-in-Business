@@ -11,6 +11,10 @@
 \usepackage{float} 
 \usepackage[none]{hyphenat}
 
+\setlength{\floatsep}{1pt plus 1pt minus 0pt}
+\setlength{\textfloatsep}{1pt plus 1pt minus 0pt}
+\setlength{\intextsep}{1pt plus 1pt minus 0pt}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
@@ -70,8 +74,6 @@ Ke et al. (2017) [10] introduced LightGBM, a highly efficient gradient boosting 
  \\
 \section{Materials}
 \subsection{Dataset}
-
-
 We have compiled three datasets in the pharmaceutical field from three companies  \textbf{Hataphar (DHT)}, \textbf{Central Pharmaceutical JSC No3 (DP3)}, and \textbf{American
 Vietnamese Biotech Inc (AMV)}. The collected data is the historical stock price of the three companies from 1-1-2019 to 17/4/2024. The data was collected from Investing.com website and includes columns:
 
@@ -354,74 +356,55 @@ Where:
 
 \subsection{Linear Regression combined with CalendarFourier and DeterministicProcess }
 
-Linear Regression combined with CalendarFourier and DeterministicProcess is an extended linear regression method used for modeling and forecasting time series with recurring cycles and growth trends. This method combines the following elements: 
+The model can be expressed as:
 
-\textbf{Linear Regression}:
-
-\begin{itemize}
-    \item Linear Regression is a common statistical modeling technique used to explore the linear relationship between an output variable (dependent variable) and one or more input variables (independent variables).
-    \item Linear Regression is often used as a foundation for other time series forecasting techniques due to its ability to effectively model linear relationships.
-\end{itemize}
-\textbf{CalendarFourier}:
-
-\begin{itemize}
-    \item CalendarFourier is a time feature used to model recurring patterns in time series data.
-    \item It transforms time into Fourier functions (sine and cosine), allowing the model to learn cyclical patterns such as daily, weekly, monthly, or yearly cycles.
-    \item When combined with Linear Regression, CalendarFourier enhances the ability to forecast recurring cycles in time series data.
-\end{itemize}
-\textbf{DeterministicProcess}:
-
-\begin{itemize}
-    \item DeterministicProcess is a time feature used to model trends or growth patterns in time series data.
-    \item It transforms time into a growth function (e.g., straight line, curve, polynomial, etc.), allowing the model to learn the long-term growth or decline trends of the data.
-    \item When combined with Linear Regression, DeterministicProcess improves the ability to forecast long-term trends in time series data.
-\end{itemize}
- 
-Suppose we have a time series \verb|y| and input variables \verb|X|. The Linear Regression model combined with CalendarFourier and DeterministicProcess takes the form: 
-
-$$y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_nX_n + f(t) + g(t) + \epsilon$$
+\begin{equation}
+P(t) = \beta_0 + \beta_1X_1 + \beta_2X_2 + \cdots + \beta_nX_n + f(t) + g(t) + \varepsilon
+\end{equation}
 
 Where:
-
 \begin{itemize}
-    \item \verb|y| is the output variable (the time series to be predicted).
-    \item $\beta_0$ is the constant term.
-\item $\beta_1, \beta_2, ..., \beta_n$ are the regression coefficients for the input variables $X_1, X_2, ..., X_n$.
-    \item \verb|f(t)| is the CalendarFourier component, representing the recurring cycles in the time series, with \verb|t| being the time.
-    \item \verb|g(t)| is the DeterministicProcess component, representing the growth trend in the time series, with \verb|t| being the time.
-\item $\epsilon$ is the random error term.
+    \item $P(t)$ is the stock price at time $t$.
+    \item $\beta_0$ is the intercept term.
+    \item $\beta_1, \beta_2, \ldots, \beta_n$ are coefficients for external factors $X_1, X_2, \ldots, X_n$ (e.g., market indices, economic indicators).
+    \item $f(t)$ is the CalendarFourier component, capturing cyclical patterns.
+    \item $g(t)$ is the DeterministicProcess component, representing the long-term trend.
+    \item $\varepsilon$ is the error term.
 \end{itemize}
 
- The CalendarFourier component \verb|f(t)| can be represented as a sum of sine and cosine functions with different cycle frequencies: 
- 
-$$f(t) = \alpha_1\sin(\omega t) + \beta_1\cos(\omega t) + \alpha_2\sin(2\omega t) + \beta_2\cos(2\omega t) + ... + $$
+The CalendarFourier component $f(t)$ models recurring patterns in stock prices:
 
-$$\alpha_k\sin(k\omega t) + \beta_k\cos(k\omega t)$$
+\begin{equation}
+  \begin{split}
+  f(t) = \alpha_1\sin(\omega t) + \beta_1\cos(\omega t) + \alpha_2\sin(2\omega t) +  \\
+  \beta_2\cos(2\omega t) + \cdots + \alpha_k\sin(k\omega t) + \beta_k\cos(k\omega t)
+  \end{split}
+  \end{equation}
 
- Where:
-
+Where:
 \begin{itemize}
-\item $\omega$ is the cycle frequency (e.g., $2\pi/365$ for an annual cycle).
-    \item $k$ is the number of Fourier terms used to model the cycles.
-\item $\alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k$ are the coefficients to be estimated from the data.
+    \item $\omega$ is the frequency (e.g., $2\pi/252$ for annual cycles in trading days).
+    \item $k$ is the number of Fourier terms.
+    \item $\alpha_1, \beta_1, \ldots, \alpha_k, \beta_k$ are coefficients to be estimated.
 \end{itemize}
 
+This component can capture cyclical patterns such as quarterly earnings reports, annual industry events, or seasonal demand fluctuations in the pharmaceutical sector.
 
-The DeterministicProcess component \verb|g(t)| can be represented by a growth function, such as a polynomial, exponential, or logarithmic function:
+The DeterministicProcess component $g(t)$ models the long-term trend in stock prices:
 
- $$g(t) = \gamma_1t + \gamma_2t^2 + \gamma_3t^3 + ... \quad \text{(polynomial)}$$
-$$g(t) = \gamma_1 + \gamma_2\log(t) \quad \text{(logarithmic)}$$
-$$g(t) = \gamma_1\exp(\gamma_2t) \quad \text{(exponential)}$$
+\begin{align}
+g(t) &= \gamma_1t + \gamma_2t^2 + \gamma_3t^3 + \cdots \quad \text{(polynomial trend)} \\
+\text{or} \quad g(t) &= \gamma_1 + \gamma_2\log(t) \quad \text{(logarithmic trend)} \\
+\text{or} \quad g(t) &= \gamma_1\exp(\gamma_2t) \quad \text{(exponential trend)}
+\end{align}
 
-Where $\gamma_1, \gamma_2, \gamma_3, ...$ are the coefficients to be estimated from the data.
+Where $\gamma_1, \gamma_2, \gamma_3, \ldots$ are coefficients to be estimated.
 
-The estimation of the coefficients:
+This component can capture long-term growth trends in pharmaceutical stocks, which may be influenced by factors such as R\&D pipelines, market expansion, or industry-wide growth.
 
-$\beta_0, \beta_1, \beta_2, ..., \beta_n, \alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k, \gamma_1, \gamma_2, \gamma_3, ...$ 
-Can be performed using the Ordinary Least Squares (OLS) method or other optimization techniques.
+The model parameters are estimated using Ordinary Least Squares (OLS) or other optimization techniques, minimizing the sum of squared residuals between the predicted and actual stock prices.
 
- By combining these components, the Linear Regression model with CalendarFourier and DeterministicProcess can effectively model and forecast both recurring cycles and growth trends in the time series, thereby achieving higher forecasting accuracy compared to simpler models. 
- 
+By combining these components, the model can effectively capture both the cyclical patterns and long-term trends in pharmaceutical stock prices, potentially leading to more accurate forecasts compared to simpler models. This approach allows for the incorporation of industry-specific knowledge, such as known cycle periods or expected growth patterns, into the forecasting process.
  \subsection{Gated Recurrent Unit}
  The Gated Recurrent Unit (GRU) is a type of recurrent neural network (RNN) architecture similar to Long Short-Term Memory (LSTM) but with a simpler design and fewer parameters. GRU employs two gates: the reset gate and the update gate. The reset gate controls the forgetting of the previous hidden state, while the update gate manages the incorporation of a candidate activation vector into the new hidden state.
 
