@@ -1,6 +1,6 @@
-PWD c:\Users\miynzi\Desktop\noppppp\IS403_O22_HTCL_2\File báo cáo Latex
-INPUT C:\Users\miynzi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\miynzi\Desktop\noppppp\IS403_O22_HTCL_2\File báo cáo Latex\Report.tex
+PWD c:\Users\trieu\OneDrive\Documents\HK2_2024\IS403\IS403_BA\IS403_O22_HTCL_2\File báo cáo Latex
+INPUT C:\Users\trieu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\trieu\OneDrive\Documents\HK2_2024\IS403\IS403_BA\IS403_O22_HTCL_2\File báo cáo Latex\Report.tex
 OUTPUT Report.log
 INPUT .\ieeeojies.cls
 INPUT ieeeojies.cls
@@ -58,7 +58,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\keyval.tex
-INPUT C:\Users\miynzi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\trieu\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
