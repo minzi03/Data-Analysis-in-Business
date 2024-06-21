@@ -1,2 +1,39 @@
-File báo cáo Latex/Report.fdb_latexmk
-File báo cáo Latex/Report.log
+# LaTeX temporary files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.lol
+
+# BibTeX auxiliary files
+*.bcf
+*.run.xml
+
+# Miscellaneous
+*.pdf
+*.dvi
+*.ps
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.cut
+
+# Editors and Operating System files
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Directories
+_build/
+latex.out/

@@ -530,7 +530,7 @@ Where: \\
          \hline
          \multirow{2}{*}{FFT}& 7:3	& 0.0829& 4151& 0.0054\\ & 8:2 & 0.05950& 0.9657& 0.003\\ & \textbf{9:1} & 0.0259& 0.5279& 0.0006\\
          \hline
-         \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18 & 0.96 \\ & 8:2 &2031.85	& 44.21 & 0.15 \\ & \textbf{9:1} &1441.58&33.21& 0.10\\
+         \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18\% & 0.96 \\ & 8:2 &2031.85	& 44.21\%&  0.15 \\ & \textbf{9:1} &1441.58&33.21\% & 0.10\\
          \hline
          \multirow{2}{*}{LSTM}& 7:3& 1861.67& 1.78\%& 0.00068\\ & 8:2 & 522.86& 2.41\%& 0.00135\\ & \textbf{9:1}& 298.001& 1.74\%& 0.00046\\
          \hline
@@ -608,6 +608,16 @@ Where: \\
     \centering
     \includegraphics[width=\linewidth]{bibliography/Figure/LightGBM_AMV(8_2).png}
     \caption{LightGBM model's result with 8:2 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_GRU.png}
+    \caption{GRU model's result with 8:2 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -712,6 +722,16 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/DP3_GRU.png}
+    \caption{GRU model's result with 9:1 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
 \subsection{DHT Dataset} 
 \begin{table}[H]
     \centering
@@ -812,10 +832,20 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.8\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{bibliography/Figure/DHT_GRU.png}
+    \caption{GRU model's result with 8:2 splitting proportion}
+    \label{fig8}
+  \end{minipage}
+\end{figure}
+
 \section*{Acknowledgment}
 \addcontentsline{toc}{section}{Acknowledgment}
-First and foremost, we would like to express our sincere gratitude to \textbf{Assoc. Prof. Dr. Nguyen Dinh Thuan} and \textbf{Mr. Nguyen Minh Nhut} for their exceptional guidance, expertise, and invaluable feedback throughout the research process. Their mentorship and unwavering support have been instrumental in shaping the direction and quality of this study. Their profound knowledge, critical insights, and attention to detail have significantly contributed to the success of this research.
-\\This research would not have been possible without the support and contributions of our mentors. We would like to extend our heartfelt thanks to everyone involved for their invaluable assistance, encouragement, and belief in our research. Thank you all for your invaluable assistance and encouragement.
+We would like to express our sincere gratitude to \textbf{Assoc. Prof. Dr. Nguyen Dinh Thuan} and \textbf{Mr. Nguyen Minh Nhut} for their exceptional guidance, expertise, and invaluable feedback throughout the research process. Their meticulous mentoring and corrections, especially from Dr. Thuan, significantly shaped the direction and quality of this study. Mr. Nhut's dedicated guidance has been instrumental in our research journey.
+\\This research would not have been possible without their support and contributions. We extend our heartfelt thanks to everyone involved for their invaluable assistance, encouragement, and belief in our research. We deeply appreciate their continuous support and guidance.
 
 \section{CONCLUSION}
 
@@ -853,6 +883,14 @@ By continuously exploring and incorporating new features, data sources, and mode
 \bibitem{5} Chen, J., Li, K., Tang, Z., Bilal, K., Yu, S., Weng, C., \& Li, K. (2020). A parallel random forest algorithm for big data in a spark cloud computing environment. IEEE Transactions on Parallel and Distributed Systems, 32(1), 1-17.
 
 \bibitem{6} Mamon, R. S., Arya, V., Kamalakannan, R., \& Gadde, S. (2021). Forecasting Stock Index Returns During COVID-19: Machine Learning Fusion Approach. Mathematics, 9(14), 1641.
+
+\bibitem{7} Kostadinov, S. (2017, December 16). Understanding GRU networks. Towards Data Science. https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be.
+
+\bibitem{8} Fuqua School of Business. (n.d.). Introduction to ARIMA models. Duke.edu. Retrieved June 20, 2024, from https://people.duke.edu/~rnau/411arim.htm
+
+\bibitem{9} Nau, R. (2014). The mathematical structure of arima models. Duke University Online Article, 1(1), 1-8.
+
+
 
 \end{thebibliography}
 %%%%%%%%%%%%%%%
