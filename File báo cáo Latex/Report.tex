@@ -520,7 +520,7 @@ Where: \\
          \hline
          \centering Model & Training:Testing & RMSE & MAPE (\%) & MSLE\\
          \hline
-         \multirow{2}{*}{LN}& 7:3 & 7787.57 & 0.4966\% & 0.1963\\ & 8:2 & 9121.15 & 0.6732\% & 0.2726\\ & \textbf{9:1}& 6901.35& 0.5173\% & 0.1753\\
+         \multirow{2}{*}{LN}& 7:3 & 4816.31 & 1.200 & 0.6261\\ & 8:2 & 1061.36 & 0.2274 & 0.0489\\ & \textbf{9:1}& 375.24& 0.0824 & 0.0093\\
          \hline
          \multirow{2}{*}{RNN} & 7:3&1276.19&0.3207&0.0801\\ & \textbf{8:2}&135.78&0.0264&0.0011\\ & 9:1  &264.547 &0.0665 &0.0054 \\
          \hline
@@ -532,9 +532,9 @@ Where: \\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18\% & 0.96 \\ & 8:2 &2031.85	& 44.21\%&  0.15 \\ & \textbf{9:1} &1441.58&33.21\% & 0.10\\
          \hline
-         \multirow{2}{*}{LSTM}& 7:3& 666.91& 0.0232\%& 0.0019\\ & 8:2 & 371.68& 0.0181\%& 0.0007\\ & \textbf{9:1}& 260.59& 0.0141\%& 0.0003\\
+         \multirow{2}{*}{LSTM}& 7:3& 162.54& 0.003& 0.0016\\ & 8:2 & 124.52& 0.0227& 0.0009\\ & \textbf{9:1}& 102.47& 0.0208& 0.0007\\
          \hline
-         \multirow{2}{*}{LightGBM}& 7:3& 1149.51& 0.0593\% & 0.0057\\ & 8:2 & 681.00& 0.0380\% & 0.0022\\ & \textbf{9:1}& 417.32& 0.0263\% & 0.0009\\
+         \multirow{2}{*}{LightGBM}& 7:3& 1149.51& 0.0593 & 0.0057\\ & 8:2 & 681.00& 0.0380 & 0.0022\\ & \textbf{9:1}& 417.32& 0.0263 & 0.0009\\
          \hline
     \end{tabular}
     \caption{AMV Dataset's Evaluation}
@@ -545,8 +545,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/LN_AMV(7_3).png}
-    \caption{Linear model's result with 7:3 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_LN_91.png}
+    \caption{Linear model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -596,8 +596,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/LSTM_AMV(8_2).png}
-    \caption{LSTM model's result with 8:2 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_LSTM_91.png}
+    \caption{LSTM model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -606,8 +606,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/LightGBM_AMV(8_2).png}
-    \caption{LightGBM model's result with 8:2 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/AMV_LightGBM_91.png}
+    \caption{LightGBM model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -631,7 +631,7 @@ Where: \\
          \hline
          \centering Model & Training:Testing & RMSE & MAPE (\%) & MSLE\\
          \hline
-         \multirow{2}{*}{LN}& 7:3 & 7787.57 & 0.4966\% & 0.1963\\ & 8:2 & 9121.15 & 0.6732\% & 0.2726\\ & \textbf{9:1}& 6901.35& 0.5173\% & 0.1753\\
+         \multirow{2}{*}{LN}& 7:3 & 37603.01 & 0.7597 & 0.3477\\ & \textbf{8:2} & 4983.37 & 0.0678 & 0.0060\\ & {9:1}& 5932.82& 0.0729 & 0.0081\\
          \hline
          \multirow{2}{*}{RNN} & 7:3&1675.09&0.0412&0.0037\\ & 8:2&2503.94&0.0700&0.0081\\ & \textbf{9:1} & 1499.11&0.0275 &0.0021 \\
          \hline
@@ -643,9 +643,9 @@ Where: \\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 54681.37 & 69.13 & 0.31 \\ & {8:2} & 48774.18 & 67.56 & 0.28 \\ & \textbf{9:1} & 45471.00 &66.45&0.26\\
          \hline
-         \multirow{2}{*}{LSTM}& 7:3& 2667.39& 0.0323\%& 0.0014\\ & 8:2 & 1495.67& 0.0152\%& 0.0004\\ & \textbf{9:1}& 1321.26& 0.0127\%& 0.0003\\
+         \multirow{2}{*}{LSTM}& 7:3& 2381.67& 0.0295& 0.0017\\ & 8:2 & 1277.47& 0.0125& 0.0004\\ & \textbf{9:1}& 1113.29& 0.0125& 0.0002\\
          \hline
-         \multirow{2}{*}{LightGBM}& 7:3& 2281.21& 0.0254\% & 0.0010\\ & 8:2 & 1912.37& 0.0236\% & 0.0008\\ & \textbf{9:1}& 1765.80& 0.0203\% & 0.0006\\
+         \multirow{2}{*}{LightGBM}& 7:3& 2281.21& 0.0254 & 0.0010\\ & 8:2 & 1912.37& 0.0236 & 0.0008\\ & \textbf{9:1}& 1765.80& 0.0203 & 0.0006\\
          \hline
     \end{tabular}
     \caption{DP3 Dataset's Evaluation}
@@ -716,8 +716,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/LightGBM_DP3(7_3).png}
-    \caption{LightGBM model's result with 7:3 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/LightGBM_DP3(9_1).png}
+    \caption{LightGBM model's result with 9:1 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -753,9 +753,9 @@ Where: \\
          \hline
          \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & {8:2} &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
          \hline
-         \multirow{2}{*}{LSTM}& 7:3& 684.28& 0.0368\%& 0.0022\\ & 8:2 & 550.75& 0.0295\%& 0.0017\\ & \textbf{9:1}& 519.76& 0.0412\%& 0.0023\\
+         \multirow{2}{*}{LSTM}& 7:3& 684.28& 0.0368\%& 0.0022\\ & \textbf{8:2} & 550.75& 0.0295\%& 0.0017\\ & 9:1& 519.76& 0.0412\%& 0.0023\\
          \hline
-         \multirow{2}{*}{LightGBM}& 7:3& 2095.46& 0.1271\% & 0.0293\\ & 8:2 & 2543.66& 0.1783\% & 0.0440\\ & \textbf{9:1}& 3738.55& 0.3583\% & 0.0968\\
+         \multirow{2}{*}{LightGBM}& \textbf{7:3}& 2095.46& 0.1271\% & 0.0293\\ & 8:2 & 2543.66& 0.1783\% & 0.0440\\ & 9:1& 3738.55& 0.3583\% & 0.0968\\
          \hline
     \end{tabular}
     \caption{DHT Dataset's Evaluation}
@@ -816,8 +816,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/LSTM_DHT(7_3).png}
-    \caption{LSTM model's result with 7:3 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/LSTM_DHT(8_2).png}
+    \caption{LSTM model's result with 8:2 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
@@ -826,8 +826,8 @@ Where: \\
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/LightGBM_DHT(8_2).png}
-    \caption{LightGBM model's result with 8:2 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/LightGBM_DHT(7_3).png}
+    \caption{LightGBM model's result with 7:3 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
