@@ -9,6 +9,7 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{float} 
+\usepackage[none]{hyphenat}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -30,7 +31,7 @@
 \begin{abstract}
 Stock price prediction plays a crucial role in investment decision-making and portfolio management strategies. This study aims to forecast the stock prices of three major pharmaceutical companies listed on the Vietnamese stock exchange: \textbf{Hataphar (DHT)}, \textbf{Central Pharmaceutical JSC No3 (DP3)}, and \textbf{American Vietnamese Biotech Inc (AMV)}.
 
-The research employs a ensemble of statistical and machine learning models, including Fast Fourier Transform (FFT), Linear Regression with Calendar/Fourier Terms, Deterministic Process Models, LightGBM, ARIMA, Recurrent Neural Networks (RNNs), Gated Recurrent Units (GRUs), and Long Short-Term Memory (LSTM) networks. These diverse techniques are utilized to capture the complex patterns and dynamics inherent in stock price movements. 
+The research employs an ensemble of statistical and machine learning models, including Fast Fourier Transform (FFT), Linear Regression with Calendar/Fourier Terms, Deterministic Process Models, LightGBM, ARIMA, Recurrent Neural Networks (RNNs), Gated Recurrent Units (GRUs), and Long Short-Term Memory (LSTM) networks. These diverse techniques are utilized to capture the complex patterns and dynamics inherent in stock price movements. 
 
 The research evaluates model performance and identifies key factors influencing price fluctuations in Vietnam's pharmaceutical sector. Findings provide insights for investment strategies and portfolio optimization in this industry. The accurate forecasting models enable informed decision-making by investors, analysts and stakeholders. 
 \end{abstract}
@@ -45,13 +46,11 @@ Vietnamese stock market, Machine learning models, Statistical models, LightGBM, 
 
 \section{Introduction}
 \label{sec:introduction}
-The Covid-19 pandemic has severely disrupted global economies, with the pharmaceutical industry at the forefront combating this crisis. As demand for vaccines, treatments, and medical supplies spiked, pharmaceutical firms faced immense pressures, leading to significant volatility in their stock prices. In Vietnam, companies like \textbf{Hataphar}, \textbf{Central Pharmaceutical No3}, and \textbf{American Vietnamese Biotech} played vital roles supplying Covid-19 countermeasures amidst shifting market dynamics. 
+The pharmaceutical industry in Vietnam is experiencing rapid growth, with companies like Hataphar, Central Pharmaceutical No3, and American Vietnamese Biotech emerging as key players. Accurately forecasting stock prices in this sector is challenging due to complex factors such as long product development cycles, regulatory uncertainties, and scientific breakthroughs.
 
-Traditional forecasting models may not fully capture the unprecedented pandemic's complexities impacting stock movements. This necessitates exploring advanced machine learning and deep learning techniques to effectively model intricate patterns and non-linearities. This study aims to leverage an ensemble of statistical methods (FFT, Linear Regression with Calendar/Fourier terms, ARIMA) and machine learning models (LightGBM, RNNs, GRUs, LSTMs) for forecasting stock prices of the three major Vietnamese pharmaceutical firms.
+Traditional forecasting models often struggle to capture the intricate patterns in pharmaceutical stock price movements. This study aims to address these limitations by leveraging an ensemble of statistical methods (Fast Fourier Transform, Linear Regression with Calendar/Fourier terms, ARIMA) and machine learning models (LightGBM, RNNs, GRUs, LSTMs) to forecast stock prices of three major Vietnamese pharmaceutical firms.
 
-By combining diverse approaches, the research seeks insights into factors influencing price dynamics during Covid-19. Findings can contribute to financial forecasting knowledge, guiding investment strategies, portfolio optimization, and risk management for stakeholders in Vietnam's pharmaceutical sector. Reliable forecasts can support the industry's resilience and growth amidst future crises.
-
- 
+By combining diverse approaches, this research seeks to uncover insights into factors influencing price dynamics in the pharmaceutical sector. The findings can contribute to financial forecasting knowledge, guide investment strategies, and support industry growth in Vietnam's pharmaceutical market. This comprehensive analysis aims to bridge the gap between traditional financial modeling and cutting-edge machine learning approaches, with potential applications in other emerging markets and sectors.
 
 \section{Related Works}
 
@@ -67,9 +66,7 @@ Chen et al. (2020) [5] developed an adaptive, dynamic method based on time serie
 
 Mamon et al. (2021) [6] conducted a comparative analysis assessing the performance of ARIMA, VAR, CNN, LSTM and hybrid CNN-LSTM models on predicting Philippine stock index PSEi returns during the Covid-19 pandemic from 2020-2021 data. The CNN-LSTM exhibited the lowest error rates across metrics.
 
-Jolly Masih [7] conducted a study that implemented algorithms such as SVM and LSTM on stock market data to observe whether major IT companies experienced growth or decline during the COVID-19 pandemic. The authors also utilized the ARIMA forecasting method to predict the stock prices of the mentioned four companies: Google, Microsoft, Apple, and Amazon. Regarding the current prediction of stock prices, the authors achieved an accuracy of 75.95\% using the SVM algorithm and the best-fit forecast model of ARIMA. This decrease in accuracy was anticipated, as described earlier, due to increased volatility in the stock market resulting from the COVID-19 outbreak. 
-
-Ke et al. (2017) [20] introduced LightGBM, a highly efficient gradient boosting decision tree algorithm for classification and regression tasks. This method has gained significant attention for its superior performance, efficient handling of high-dimensional data, and effective parallelization. Several studies have successfully applied LightGBM to stock price prediction problems, leveraging its ability to capture nonlinear relationships and feature interactions. 
+Ke et al. (2017) [10] introduced LightGBM, a highly efficient gradient boosting decision tree algorithm for classification and regression tasks. This method has gained significant attention for its superior performance, efficient handling of high-dimensional data, and effective parallelization. Several studies have successfully applied LightGBM to stock price prediction problems, leveraging its ability to capture nonlinear relationships and feature interactions. 
  \\
 \section{Materials}
 \subsection{Dataset}
@@ -194,33 +191,48 @@ Where:\\
   \end{figure}
 
 \subsection{Fast Fourier Transform }
-The Fast Fourier Transform (FFT) is a method that allows computing the Discrete Fourier Transform (DFT) in $\mathcal{O}(n \log n)$ time. The basic idea of the FFT is to apply the divide-and-conquer approach. We divide the coefficient vector of the polynomial into two vectors, recursively compute the DFT for each of them, and combine the results to compute the DFT of the complete polynomial.
+The Fast Fourier Transform (FFT) is a powerful method for analyzing and forecasting time series data, particularly in financial markets. It allows for the decomposition of a time series into its constituent frequency components in $O(n \log n)$ time, significantly faster than traditional methods.
 
-Let there be a polynomial $A(x)$ with degree $n - 1$, where $n$ is a power of $2$, and $n > 1$:
+In the context of stock price prediction, let $S(t)$ be a time series of stock prices:
 
-\begin{equation*}
-|A(x)| = a_0x^0 + a_1x^1 + \cdots + a_{n-1}x^{n-1}
-\end{equation*}
+\begin{equation}
+S(t) = s_0 + s_1t + s_2t^2 + \cdots + s_{n-1}t^{n-1}
+\end{equation}
 
 Where:
-
 \begin{itemize}
-    \item $|A(x)|$ is the absolute value of the polynomial $A(x)$.
-    \item $a_0, a_1, \ldots, a_{n-1}$ are the coefficients of the polynomial.
-    \item $x^0, x^1, \ldots, x^{n-1}$ are the corresponding powers of the variable $x$ for each coefficient.
-    \item $n - 1$ is the highest degree of the polynomial.
-    \item The $\cdots$ (read as "and so on") represents the remaining terms in the sequence.
+    \item $S(t)$ represents the stock price at time $t$.
+    \item $s_0, s_1, \ldots, s_{n-1}$ are the coefficients representing different frequency components.
+    \item $t$ is the time variable.
+    \item $n$ is the number of data points, typically chosen as a power of 2 for computational efficiency.
 \end{itemize}
 
-We divide it into two smaller polynomials, one containing only the coefficients of the even positions, and the other containing the coefficients of the odd positions:
+The FFT decomposes this time series into its frequency components:
 
-\begin{align*}
-A_0(x) &= a_0x^0 + a_2x^1 + \cdots + a_{n-2}x^{\frac{n}{2}-1}\\
-A_1(x) &= a_1x^0 + a_3x^1 + \cdots + a_{n-1}x^{\frac{n}{2}-1}
-\end{align*}
+\begin{equation}
+F(\omega) = \text{FFT}(S(t))
+\end{equation}
 
-In the FFT computation, we apply the divide-and-conquer approach recursively to the polynomials $A_0(x)$ and $A_1(x)$, and combine the results to obtain the DFT of the original polynomial $A(x)$. Dividing the polynomial into smaller polynomials and computing recursively significantly reduces the computational time compared to the traditional DFT computation method.
+Where $F(\omega)$ represents the frequency domain representation of the time series.
 
+This decomposition allows us to:
+\begin{enumerate}
+    \item Identify underlying periodic patterns in the stock price movements.
+    \item Filter out noise and focus on significant frequency components.
+    \item Extrapolate future values based on the identified frequency patterns.
+\end{enumerate}
+
+The inverse FFT can then be used to transform the frequency domain representation back into the time domain, providing a forecast:
+
+\begin{equation}
+S'(t) = \text{IFFT}(F(\omega))
+\end{equation}
+
+Where $S'(t)$ is the forecasted time series.
+
+By applying FFT to stock price data, we can uncover cyclical patterns that may not be immediately apparent in the raw time series. This information can be crucial for predicting future price movements, especially when combined with other forecasting techniques.
+
+The FFT's ability to efficiently process large datasets makes it particularly suitable for analyzing high-frequency trading data or long historical price series. Moreover, it can be integrated into more complex forecasting models, providing frequency-domain features that complement traditional time-domain analysis.
 \subsection{ARIMA }
 The ARIMA model (an acronym for Auto-Regressive Integrated Moving Average), essentially creates a linear equation which describes and forecasts your time series data. This equation is generated through three separate parts which can be described as:
 
@@ -403,7 +415,10 @@ $$g(t) = \gamma_1\exp(\gamma_2t) \quad \text{(exponential)}$$
 
 Where $\gamma_1, \gamma_2, \gamma_3, ...$ are the coefficients to be estimated from the data.
 
-The estimation of the coefficients $\beta_0, \beta_1, \beta_2, ..., \beta_n, \alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k, \gamma_1, \gamma_2, \gamma_3, ...$ can be performed using the Ordinary Least Squares (OLS) method or other optimization techniques.
+The estimation of the coefficients:
+
+$\beta_0, \beta_1, \beta_2, ..., \beta_n, \alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k, \gamma_1, \gamma_2, \gamma_3, ...$ 
+Can be performed using the Ordinary Least Squares (OLS) method or other optimization techniques.
 
  By combining these components, the Linear Regression model with CalendarFourier and DeterministicProcess can effectively model and forecast both recurring cycles and growth trends in the time series, thereby achieving higher forecasting accuracy compared to simpler models. 
  
@@ -751,7 +766,7 @@ Where: \\
          \hline
          \multirow{2}{*}{FFT}& 7:3	& 0.5714& 63.88\%& 0.0871\\ & 8:2 & 0.5188& 57.93\%& 0.0862\\ & \textbf{9:1} & 0.3351& 34.96\%& 0.3354\\
          \hline
-         \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & {8:2} &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
+        \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & 8:2 &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
          \hline
          \multirow{2}{*}{LSTM}& 7:3& 1861.67& 1.78\%& 0.00068\\ & 8:2 & 522.86& 2.41\%& 0.00135\\ & \textbf{9:1}& 298.001& 1.74\%& 0.00046\\
          \hline
@@ -889,6 +904,10 @@ By continuously exploring and incorporating new features, data sources, and mode
 \bibitem{8} Fuqua School of Business. (n.d.). Introduction to ARIMA models. Duke.edu. Retrieved June 20, 2024, from https://people.duke.edu/~rnau/411arim.htm
 
 \bibitem{9} Nau, R. (2014). The mathematical structure of arima models. Duke University Online Article, 1(1), 1-8.
+
+\bibitem{10} Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., ... and Liu, T. Y. (2017). LightGBM: A highly efficient gradient boosting decision tree. Advances in neural information processing systems, 30.
+
+\bibitem{11} CP-Algorithms. (n.d.). Fast Fourier Transform (FFT). Retrieved June 21, 2024, from https://cp-algorithms.com/algebra/fft.html
 
 
 
