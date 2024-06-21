@@ -9,6 +9,11 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{float} 
+\usepackage[none]{hyphenat}
+
+\setlength{\floatsep}{1pt plus 1pt minus 0pt}
+\setlength{\textfloatsep}{1pt plus 1pt minus 0pt}
+\setlength{\intextsep}{1pt plus 1pt minus 0pt}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -30,7 +35,7 @@
 \begin{abstract}
 Stock price prediction plays a crucial role in investment decision-making and portfolio management strategies. This study aims to forecast the stock prices of three major pharmaceutical companies listed on the Vietnamese stock exchange: \textbf{Hataphar (DHT)}, \textbf{Central Pharmaceutical JSC No3 (DP3)}, and \textbf{American Vietnamese Biotech Inc (AMV)}.
 
-The research employs a ensemble of statistical and machine learning models, including Fast Fourier Transform (FFT), Linear Regression with Calendar/Fourier Terms, Deterministic Process Models, LightGBM, ARIMA, Recurrent Neural Networks (RNNs), Gated Recurrent Units (GRUs), and Long Short-Term Memory (LSTM) networks. These diverse techniques are utilized to capture the complex patterns and dynamics inherent in stock price movements. 
+The research employs an ensemble of statistical and machine learning models, including Fast Fourier Transform (FFT), Linear Regression with Calendar/Fourier Terms, Deterministic Process Models, LightGBM, ARIMA, Recurrent Neural Networks (RNNs), Gated Recurrent Units (GRUs), and Long Short-Term Memory (LSTM) networks. These diverse techniques are utilized to capture the complex patterns and dynamics inherent in stock price movements. 
 
 The research evaluates model performance and identifies key factors influencing price fluctuations in Vietnam's pharmaceutical sector. Findings provide insights for investment strategies and portfolio optimization in this industry. The accurate forecasting models enable informed decision-making by investors, analysts and stakeholders. 
 \end{abstract}
@@ -45,13 +50,11 @@ Vietnamese stock market, Machine learning models, Statistical models, LightGBM, 
 
 \section{Introduction}
 \label{sec:introduction}
-The Covid-19 pandemic has severely disrupted global economies, with the pharmaceutical industry at the forefront combating this crisis. As demand for vaccines, treatments, and medical supplies spiked, pharmaceutical firms faced immense pressures, leading to significant volatility in their stock prices. In Vietnam, companies like \textbf{Hataphar}, \textbf{Central Pharmaceutical No3}, and \textbf{American Vietnamese Biotech} played vital roles supplying Covid-19 countermeasures amidst shifting market dynamics. 
+The pharmaceutical industry in Vietnam is experiencing rapid growth, with companies like Hataphar, Central Pharmaceutical No3, and American Vietnamese Biotech emerging as key players. Accurately forecasting stock prices in this sector is challenging due to complex factors such as long product development cycles, regulatory uncertainties, and scientific breakthroughs.
 
-Traditional forecasting models may not fully capture the unprecedented pandemic's complexities impacting stock movements. This necessitates exploring advanced machine learning and deep learning techniques to effectively model intricate patterns and non-linearities. This study aims to leverage an ensemble of statistical methods (FFT, Linear Regression with Calendar/Fourier terms, ARIMA) and machine learning models (LightGBM, RNNs, GRUs, LSTMs) for forecasting stock prices of the three major Vietnamese pharmaceutical firms.
+Traditional forecasting models often struggle to capture the intricate patterns in pharmaceutical stock price movements. This study aims to address these limitations by leveraging an ensemble of statistical methods (Fast Fourier Transform, Linear Regression with Calendar/Fourier terms, ARIMA) and machine learning models (LightGBM, RNNs, GRUs, LSTMs) to forecast stock prices of three major Vietnamese pharmaceutical firms.
 
-By combining diverse approaches, the research seeks insights into factors influencing price dynamics during Covid-19. Findings can contribute to financial forecasting knowledge, guiding investment strategies, portfolio optimization, and risk management for stakeholders in Vietnam's pharmaceutical sector. Reliable forecasts can support the industry's resilience and growth amidst future crises.
-
- 
+By combining diverse approaches, this research seeks to uncover insights into factors influencing price dynamics in the pharmaceutical sector. The findings can contribute to financial forecasting knowledge, guide investment strategies, and support industry growth in Vietnam's pharmaceutical market. This comprehensive analysis aims to bridge the gap between traditional financial modeling and cutting-edge machine learning approaches, with potential applications in other emerging markets and sectors.
 
 \section{Related Works}
 
@@ -67,14 +70,10 @@ Chen et al. (2020) [5] developed an adaptive, dynamic method based on time serie
 
 Mamon et al. (2021) [6] conducted a comparative analysis assessing the performance of ARIMA, VAR, CNN, LSTM and hybrid CNN-LSTM models on predicting Philippine stock index PSEi returns during the Covid-19 pandemic from 2020-2021 data. The CNN-LSTM exhibited the lowest error rates across metrics.
 
-Jolly Masih [7] conducted a study that implemented algorithms such as SVM and LSTM on stock market data to observe whether major IT companies experienced growth or decline during the COVID-19 pandemic. The authors also utilized the ARIMA forecasting method to predict the stock prices of the mentioned four companies: Google, Microsoft, Apple, and Amazon. Regarding the current prediction of stock prices, the authors achieved an accuracy of 75.95\% using the SVM algorithm and the best-fit forecast model of ARIMA. This decrease in accuracy was anticipated, as described earlier, due to increased volatility in the stock market resulting from the COVID-19 outbreak. 
-
-Ke et al. (2017) [20] introduced LightGBM, a highly efficient gradient boosting decision tree algorithm for classification and regression tasks. This method has gained significant attention for its superior performance, efficient handling of high-dimensional data, and effective parallelization. Several studies have successfully applied LightGBM to stock price prediction problems, leveraging its ability to capture nonlinear relationships and feature interactions. 
+Ke et al. (2017) [10] introduced LightGBM, a highly efficient gradient boosting decision tree algorithm for classification and regression tasks. This method has gained significant attention for its superior performance, efficient handling of high-dimensional data, and effective parallelization. Several studies have successfully applied LightGBM to stock price prediction problems, leveraging its ability to capture nonlinear relationships and feature interactions. 
  \\
 \section{Materials}
 \subsection{Dataset}
-
-
 We have compiled three datasets in the pharmaceutical field from three companies  \textbf{Hataphar (DHT)}, \textbf{Central Pharmaceutical JSC No3 (DP3)}, and \textbf{American
 Vietnamese Biotech Inc (AMV)}. The collected data is the historical stock price of the three companies from 1-1-2019 to 17/4/2024. The data was collected from Investing.com website and includes columns:
 
@@ -194,33 +193,48 @@ Where:\\
   \end{figure}
 
 \subsection{Fast Fourier Transform }
-The Fast Fourier Transform (FFT) is a method that allows computing the Discrete Fourier Transform (DFT) in $\mathcal{O}(n \log n)$ time. The basic idea of the FFT is to apply the divide-and-conquer approach. We divide the coefficient vector of the polynomial into two vectors, recursively compute the DFT for each of them, and combine the results to compute the DFT of the complete polynomial.
+The Fast Fourier Transform (FFT) is a powerful method for analyzing and forecasting time series data, particularly in financial markets. It allows for the decomposition of a time series into its constituent frequency components in $O(n \log n)$ time, significantly faster than traditional methods.
 
-Let there be a polynomial $A(x)$ with degree $n - 1$, where $n$ is a power of $2$, and $n > 1$:
+In the context of stock price prediction, let $S(t)$ be a time series of stock prices:
 
-\begin{equation*}
-|A(x)| = a_0x^0 + a_1x^1 + \cdots + a_{n-1}x^{n-1}
-\end{equation*}
+\begin{equation}
+S(t) = s_0 + s_1t + s_2t^2 + \cdots + s_{n-1}t^{n-1}
+\end{equation}
 
 Where:
-
 \begin{itemize}
-    \item $|A(x)|$ is the absolute value of the polynomial $A(x)$.
-    \item $a_0, a_1, \ldots, a_{n-1}$ are the coefficients of the polynomial.
-    \item $x^0, x^1, \ldots, x^{n-1}$ are the corresponding powers of the variable $x$ for each coefficient.
-    \item $n - 1$ is the highest degree of the polynomial.
-    \item The $\cdots$ (read as "and so on") represents the remaining terms in the sequence.
+    \item $S(t)$ represents the stock price at time $t$.
+    \item $s_0, s_1, \ldots, s_{n-1}$ are the coefficients representing different frequency components.
+    \item $t$ is the time variable.
+    \item $n$ is the number of data points, typically chosen as a power of 2 for computational efficiency.
 \end{itemize}
 
-We divide it into two smaller polynomials, one containing only the coefficients of the even positions, and the other containing the coefficients of the odd positions:
+The FFT decomposes this time series into its frequency components:
 
-\begin{align*}
-A_0(x) &= a_0x^0 + a_2x^1 + \cdots + a_{n-2}x^{\frac{n}{2}-1}\\
-A_1(x) &= a_1x^0 + a_3x^1 + \cdots + a_{n-1}x^{\frac{n}{2}-1}
-\end{align*}
+\begin{equation}
+F(\omega) = \text{FFT}(S(t))
+\end{equation}
 
-In the FFT computation, we apply the divide-and-conquer approach recursively to the polynomials $A_0(x)$ and $A_1(x)$, and combine the results to obtain the DFT of the original polynomial $A(x)$. Dividing the polynomial into smaller polynomials and computing recursively significantly reduces the computational time compared to the traditional DFT computation method.
+Where $F(\omega)$ represents the frequency domain representation of the time series.
 
+This decomposition allows us to:
+\begin{enumerate}
+    \item Identify underlying periodic patterns in the stock price movements.
+    \item Filter out noise and focus on significant frequency components.
+    \item Extrapolate future values based on the identified frequency patterns.
+\end{enumerate}
+
+The inverse FFT can then be used to transform the frequency domain representation back into the time domain, providing a forecast:
+
+\begin{equation}
+S'(t) = \text{IFFT}(F(\omega))
+\end{equation}
+
+Where $S'(t)$ is the forecasted time series.
+
+By applying FFT to stock price data, we can uncover cyclical patterns that may not be immediately apparent in the raw time series. This information can be crucial for predicting future price movements, especially when combined with other forecasting techniques.
+
+The FFT's ability to efficiently process large datasets makes it particularly suitable for analyzing high-frequency trading data or long historical price series. Moreover, it can be integrated into more complex forecasting models, providing frequency-domain features that complement traditional time-domain analysis.
 \subsection{ARIMA }
 The ARIMA model (an acronym for Auto-Regressive Integrated Moving Average), essentially creates a linear equation which describes and forecasts your time series data. This equation is generated through three separate parts which can be described as:
 
@@ -342,71 +356,55 @@ Where:
 
 \subsection{Linear Regression combined with CalendarFourier and DeterministicProcess }
 
-Linear Regression combined with CalendarFourier and DeterministicProcess is an extended linear regression method used for modeling and forecasting time series with recurring cycles and growth trends. This method combines the following elements: 
+The model can be expressed as:
 
-\textbf{Linear Regression}:
-
-\begin{itemize}
-    \item Linear Regression is a common statistical modeling technique used to explore the linear relationship between an output variable (dependent variable) and one or more input variables (independent variables).
-    \item Linear Regression is often used as a foundation for other time series forecasting techniques due to its ability to effectively model linear relationships.
-\end{itemize}
-\textbf{CalendarFourier}:
-
-\begin{itemize}
-    \item CalendarFourier is a time feature used to model recurring patterns in time series data.
-    \item It transforms time into Fourier functions (sine and cosine), allowing the model to learn cyclical patterns such as daily, weekly, monthly, or yearly cycles.
-    \item When combined with Linear Regression, CalendarFourier enhances the ability to forecast recurring cycles in time series data.
-\end{itemize}
-\textbf{DeterministicProcess}:
-
-\begin{itemize}
-    \item DeterministicProcess is a time feature used to model trends or growth patterns in time series data.
-    \item It transforms time into a growth function (e.g., straight line, curve, polynomial, etc.), allowing the model to learn the long-term growth or decline trends of the data.
-    \item When combined with Linear Regression, DeterministicProcess improves the ability to forecast long-term trends in time series data.
-\end{itemize}
- 
-Suppose we have a time series \verb|y| and input variables \verb|X|. The Linear Regression model combined with CalendarFourier and DeterministicProcess takes the form: 
-
-$$y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_nX_n + f(t) + g(t) + \epsilon$$
+\begin{equation}
+P(t) = \beta_0 + \beta_1X_1 + \beta_2X_2 + \cdots + \beta_nX_n + f(t) + g(t) + \varepsilon
+\end{equation}
 
 Where:
-
 \begin{itemize}
-    \item \verb|y| is the output variable (the time series to be predicted).
-    \item $\beta_0$ is the constant term.
-\item $\beta_1, \beta_2, ..., \beta_n$ are the regression coefficients for the input variables $X_1, X_2, ..., X_n$.
-    \item \verb|f(t)| is the CalendarFourier component, representing the recurring cycles in the time series, with \verb|t| being the time.
-    \item \verb|g(t)| is the DeterministicProcess component, representing the growth trend in the time series, with \verb|t| being the time.
-\item $\epsilon$ is the random error term.
+    \item $P(t)$ is the stock price at time $t$.
+    \item $\beta_0$ is the intercept term.
+    \item $\beta_1, \beta_2, \ldots, \beta_n$ are coefficients for external factors $X_1, X_2, \ldots, X_n$ (e.g., market indices, economic indicators).
+    \item $f(t)$ is the CalendarFourier component, capturing cyclical patterns.
+    \item $g(t)$ is the DeterministicProcess component, representing the long-term trend.
+    \item $\varepsilon$ is the error term.
 \end{itemize}
 
- The CalendarFourier component \verb|f(t)| can be represented as a sum of sine and cosine functions with different cycle frequencies: 
- 
-$$f(t) = \alpha_1\sin(\omega t) + \beta_1\cos(\omega t) + \alpha_2\sin(2\omega t) + \beta_2\cos(2\omega t) + ... + $$
+The CalendarFourier component $f(t)$ models recurring patterns in stock prices:
 
-$$\alpha_k\sin(k\omega t) + \beta_k\cos(k\omega t)$$
+\begin{equation}
+  \begin{split}
+  f(t) = \alpha_1\sin(\omega t) + \beta_1\cos(\omega t) + \alpha_2\sin(2\omega t) +  \\
+  \beta_2\cos(2\omega t) + \cdots + \alpha_k\sin(k\omega t) + \beta_k\cos(k\omega t)
+  \end{split}
+  \end{equation}
 
- Where:
-
+Where:
 \begin{itemize}
-\item $\omega$ is the cycle frequency (e.g., $2\pi/365$ for an annual cycle).
-    \item $k$ is the number of Fourier terms used to model the cycles.
-\item $\alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k$ are the coefficients to be estimated from the data.
+    \item $\omega$ is the frequency (e.g., $2\pi/252$ for annual cycles in trading days).
+    \item $k$ is the number of Fourier terms.
+    \item $\alpha_1, \beta_1, \ldots, \alpha_k, \beta_k$ are coefficients to be estimated.
 \end{itemize}
 
+This component can capture cyclical patterns such as quarterly earnings reports, annual industry events, or seasonal demand fluctuations in the pharmaceutical sector.
 
-The DeterministicProcess component \verb|g(t)| can be represented by a growth function, such as a polynomial, exponential, or logarithmic function:
+The DeterministicProcess component $g(t)$ models the long-term trend in stock prices:
 
- $$g(t) = \gamma_1t + \gamma_2t^2 + \gamma_3t^3 + ... \quad \text{(polynomial)}$$
-$$g(t) = \gamma_1 + \gamma_2\log(t) \quad \text{(logarithmic)}$$
-$$g(t) = \gamma_1\exp(\gamma_2t) \quad \text{(exponential)}$$
+\begin{align}
+g(t) &= \gamma_1t + \gamma_2t^2 + \gamma_3t^3 + \cdots \quad \text{(polynomial trend)} \\
+\text{or} \quad g(t) &= \gamma_1 + \gamma_2\log(t) \quad \text{(logarithmic trend)} \\
+\text{or} \quad g(t) &= \gamma_1\exp(\gamma_2t) \quad \text{(exponential trend)}
+\end{align}
 
-Where $\gamma_1, \gamma_2, \gamma_3, ...$ are the coefficients to be estimated from the data.
+Where $\gamma_1, \gamma_2, \gamma_3, \ldots$ are coefficients to be estimated.
 
-The estimation of the coefficients $\beta_0, \beta_1, \beta_2, ..., \beta_n, \alpha_1, \beta_1, \alpha_2, \beta_2, ..., \alpha_k, \beta_k, \gamma_1, \gamma_2, \gamma_3, ...$ can be performed using the Ordinary Least Squares (OLS) method or other optimization techniques.
+This component can capture long-term growth trends in pharmaceutical stocks, which may be influenced by factors such as R\&D pipelines, market expansion, or industry-wide growth.
 
- By combining these components, the Linear Regression model with CalendarFourier and DeterministicProcess can effectively model and forecast both recurring cycles and growth trends in the time series, thereby achieving higher forecasting accuracy compared to simpler models. 
- 
+The model parameters are estimated using Ordinary Least Squares (OLS) or other optimization techniques, minimizing the sum of squared residuals between the predicted and actual stock prices.
+
+By combining these components, the model can effectively capture both the cyclical patterns and long-term trends in pharmaceutical stock prices, potentially leading to more accurate forecasts compared to simpler models. This approach allows for the incorporation of industry-specific knowledge, such as known cycle periods or expected growth patterns, into the forecasting process.
  \subsection{Gated Recurrent Unit}
  The Gated Recurrent Unit (GRU) is a type of recurrent neural network (RNN) architecture similar to Long Short-Term Memory (LSTM) but with a simpler design and fewer parameters. GRU employs two gates: the reset gate and the update gate. The reset gate controls the forgetting of the previous hidden state, while the update gate manages the incorporation of a candidate activation vector into the new hidden state.
 
@@ -524,13 +522,13 @@ Where: \\
          \hline
          \multirow{2}{*}{RNN} & 7:3&1276.19&0.3207&0.0801\\ & \textbf{8:2}&135.78&0.0264&0.0011\\ & 9:1  &264.547 &0.0665 &0.0054 \\
          \hline
-         \multirow{2}{*}{GRU} & \textbf{7:3}	& & & \\ & 8:2 & & & \\ & 9:1 & & & \\
+         \multirow{2}{*}{GRU} & 7:3	& 119.53 &  2.11 & 0.0008 \\ & \textbf{8:2} & 98.64 & 2.00 & 0.0007 \\ & 9:1 & 92.90 & 2.29 & 0.0008 \\
          \hline
-         \multirow{2}{*}{ARIMA} & 7:3 & 558.44 & 11.50\% & 0.02 \\ & 8:2 & 801.64 & 18.26\% & 0.04 \\ & \textbf{9:1} & 290.25 & 5.51\% & 0.00\\
+         \multirow{2}{*}{ARIMA} & 7:3 & 558.44 & 11.50 & 0.02 \\ & 8:2 & 801.64 & 18.26 & 0.04 \\ & \textbf{9:1} & 290.25 & 5.51 & 0.00\\
          \hline
-         \multirow{2}{*}{FFT}& 7:3	& 0.0829& 4151& 0.0054\\ & 8:2 & 0.05950& 0.9657& 0.003\\ & \textbf{9:1} & 0.0259& 0.5279& 0.0006\\
+         \multirow{2}{*}{FFT}& 7:3	& 0.1081& 1113& 0.0091\\ & \textbf{8:2} & 0.0949& 1.43& 0.0071\\ & 9:1 & 0.0997& 1.915& 0.0080\\
          \hline
-         \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18\% & 0.96 \\ & 8:2 &2031.85	& 44.21\%&  0.15 \\ & \textbf{9:1} &1441.58&33.21\% & 0.10\\
+         \multirow{2}{*}{LN-CF-DP} & 7:3 & 6841.46 & 165.18 & 0.96 \\ & 8:2 &2031.85	& 44.21&  0.15 \\ & \textbf{9:1} &1441.58&33.21 & 0.10\\
          \hline
          \multirow{2}{*}{LSTM}& 7:3& 162.54& 0.003& 0.0016\\ & 8:2 & 124.52& 0.0227& 0.0009\\ & \textbf{9:1}& 102.47& 0.0208& 0.0007\\
          \hline
@@ -540,6 +538,8 @@ Where: \\
     \caption{AMV Dataset's Evaluation}
     \label{vcbresult}
 \end{table}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -551,6 +551,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -561,6 +563,7 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -572,15 +575,19 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_91_AMV.png}
-    \caption{FFT model's result with 9:1 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_82_AMV.png}
+    \caption{FFT model's result with 8:2 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -592,6 +599,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -601,6 +610,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -612,6 +623,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -621,6 +634,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \subsection{DP3 Dataset}
 \begin{table}[H]
@@ -635,11 +650,11 @@ Where: \\
          \hline
          \multirow{2}{*}{RNN} & 7:3&1675.09&0.0412&0.0037\\ & 8:2&2503.94&0.0700&0.0081\\ & \textbf{9:1} & 1499.11&0.0275 &0.0021 \\
          \hline
-         \multirow{2}{*}{GRU} & \textbf{7:3}	& & & \\ & 8:2 & & & \\ & 9:1 & & & \\
+         \multirow{2}{*}{GRU} & 7:3	& 1758.60 & 1.76 & 0.0008 \\ & 8:2 & 1168.83 & 1.35 & 0.0003 \\ & \textbf{9:1} & 582.26 &  0.67 & 0.0001 \\
          \hline
-         \multirow{2}{*}{ARIMA} & 7:3 & 27750.14  & 39.01\%  &  0.36 \\ & 8:2 & 7936.36  & 10.027\% & 0.01 \\ & \textbf{9:1} & 6394.82 & 7.79\% & 0.01 \\
+         \multirow{2}{*}{ARIMA} & 7:3 & 27750.14  & 39.01  &  0.36 \\ & 8:2 & 7936.36  & 10.027 & 0.01 \\ & \textbf{9:1} & 6394.82 & 7.79 & 0.01 \\
          \hline
-         \multirow{2}{*}{FFT}& 7:3& 0.2076& 61.27\%&0.0232 \\ & 8:2 & 0.1987& 59.18\%& 0.0224\\ & \textbf{9:1}& 0.1352& 37.86\%& 0.0103\\
+         \multirow{2}{*}{FFT}& \textbf{7:3}	& 0.1964& 7& 0.0284\\ & 8:2 & 0.2051& 0.6316& 0.0312\\ & 9:1 & 0.2113& 0.6349& 0.0320\\
          \hline
          \multirow{2}{*}{LN-CF-DP} & 7:3 & 54681.37 & 69.13 & 0.31 \\ & {8:2} & 48774.18 & 67.56 & 0.28 \\ & \textbf{9:1} & 45471.00 &66.45&0.26\\
          \hline
@@ -652,6 +667,8 @@ Where: \\
     \label{dp3result}
 \end{table}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -661,6 +678,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -672,6 +691,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -682,15 +703,19 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_91_DP3.png}
-    \caption{FFT model's result with 9:1 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_73_DP3.png}
+    \caption{FFT model's result with 7:3 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -702,6 +727,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -711,6 +738,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -722,6 +751,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -731,6 +762,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \subsection{DHT Dataset} 
 \begin{table}[H]
@@ -745,13 +778,13 @@ Where: \\
          \hline
          \multirow{2}{*}{RNN} & 7:3&7787.57&0.4966\%&0.1963\\ & 8:2&9121.15&0.6732\%& 0.2726\\ & \textbf{9:1} &6901.35 &0.5173\% & 0.1753\\
          \hline
-         \multirow{2}{*}{GRU} & \textbf{7:3}	& & & \\ & 8:2 & & & \\ & 9:1 & & & \\
+         \multirow{2}{*}{GRU} & 7:3	& 741.91 & 1.84 & 0.0008 \\ & \textbf{8:2} & 714.83 & 1.59 & 0.0006 \\ & 9:1 & 1351.59 & 2.96 & 0.0017 \\
          \hline
-         \multirow{2}{*}{ARIMA} & 7:3 & 9640.50 & 29.78\% &0.24 \\ & 8:2 & 9305.45 &31.50\% & 0.18\\ & \textbf{9:1} &5570.55 &12.58\% & 0.04\\
+         \multirow{2}{*}{ARIMA} & 7:3 & 9640.50 & 29.78 &0.24 \\ & 8:2 & 9305.45 &31.50 & 0.18\\ & \textbf{9:1} &5570.55 &12.58 & 0.04\\
          \hline
-         \multirow{2}{*}{FFT}& 7:3	& 0.5714& 63.88\%& 0.0871\\ & 8:2 & 0.5188& 57.93\%& 0.0862\\ & \textbf{9:1} & 0.3351& 34.96\%& 0.3354\\
+         \multirow{2}{*}{FFT}& \textbf{7:3}	& 0.5309& 0.7499& 0.1485\\ & 8:2 & 0.6383& 0.8736& 0.2118\\ & 9:1 & 0.6859& 0.8863& 0.2398\\
          \hline
-         \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & {8:2} &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
+        \multirow{2}{*}{LN-CF-DP} & \textbf{7:3} & 5726.49&24.00&0.08 \\ & 8:2 &8043.72& 29.24& 0.16\\ & 9:1 &6725.16&24.92&0.10\\
          \hline
          \multirow{2}{*}{LSTM}& 7:3& 684.28& 0.0368\%& 0.0022\\ & \textbf{8:2} & 550.75& 0.0295\%& 0.0017\\ & 9:1& 519.76& 0.0412\%& 0.0023\\
          \hline
@@ -761,6 +794,8 @@ Where: \\
     \caption{DHT Dataset's Evaluation}
     \label{dhtresult}
 \end{table}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -772,6 +807,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -781,6 +818,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -792,15 +831,19 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_91_DHT.png}
-    \caption{FFT model's result with 9:1 splitting proportion}
+    \includegraphics[width=\linewidth]{bibliography/Figure/FFT_73_DHT.png}
+    \caption{FFT model's result with 7:3 splitting proportion}
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -812,6 +855,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -822,6 +867,8 @@ Where: \\
   \end{minipage}
 \end{figure}
 
+\vspace{-1em}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}{0.8\linewidth}
@@ -831,6 +878,8 @@ Where: \\
     \label{fig8}
   \end{minipage}
 \end{figure}
+
+\vspace{-1em}
 
 \begin{figure}[H]
   \centering
@@ -889,6 +938,10 @@ By continuously exploring and incorporating new features, data sources, and mode
 \bibitem{8} Fuqua School of Business. (n.d.). Introduction to ARIMA models. Duke.edu. Retrieved June 20, 2024, from https://people.duke.edu/~rnau/411arim.htm
 
 \bibitem{9} Nau, R. (2014). The mathematical structure of arima models. Duke University Online Article, 1(1), 1-8.
+
+\bibitem{10} Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., ... and Liu, T. Y. (2017). LightGBM: A highly efficient gradient boosting decision tree. Advances in neural information processing systems, 30.
+
+\bibitem{11} CP-Algorithms. (n.d.). Fast Fourier Transform (FFT). Retrieved June 21, 2024, from https://cp-algorithms.com/algebra/fft.html
 
 
 
