@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.30)  21 JUN 2024 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.30)  21 JUN 2024 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1430,68 +1430,68 @@ Package xcolor Warning: Incompatible color definition on input line 889.
 Package xcolor Warning: Incompatible color definition on input line 889.
 
 
-Package xcolor Warning: Incompatible color definition on input line 896.
+Package xcolor Warning: Incompatible color definition on input line 894.
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 898--900
+Underfull \hbox (badness 2197) in paragraph at lines 896--898
 \T1/ptm/n/n/10 men-tor-ing and cor-rec-tions, es-pe-cially from Dr. Thuan,
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 898--900
+Underfull \hbox (badness 3907) in paragraph at lines 896--898
 \T1/ptm/n/n/10 This re-search would not have been pos-si-ble with-out
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 898--900
+Underfull \hbox (badness 1831) in paragraph at lines 896--898
 \T1/ptm/n/n/10 en-cour-age-ment, and be-lief in our re-search. We deeply
  []
+
+
+Package xcolor Warning: Incompatible color definition on input line 899.
 
 
 Package xcolor Warning: Incompatible color definition on input line 901.
 
 
-Package xcolor Warning: Incompatible color definition on input line 903.
-
-
-Underfull \hbox (badness 2538) in paragraph at lines 905--906
+Underfull \hbox (badness 2538) in paragraph at lines 903--904
 \T1/ptm/n/n/10 This re-search ex-plored var-i-ous meth-ods for pre-dict-ing
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 905--906
+Underfull \hbox (badness 1721) in paragraph at lines 903--904
 \T1/ptm/n/n/10 in-clude Lin-ear Re-gres-sion (LR), ARIMA, GRU, RNN,
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 907--908
+Underfull \hbox (badness 2302) in paragraph at lines 905--906
 []\T1/ptm/n/n/10 Each model pro-vides unique in-sights: deep learn-ing
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 907--908
+Underfull \hbox (badness 7238) in paragraph at lines 905--906
 \T1/ptm/n/n/10 meth-ods of-fer in-ter-pretable re-sults, while Light-GBM
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 911.
+Package xcolor Warning: Incompatible color definition on input line 909.
 
 
-Underfull \hbox (badness 5490) in paragraph at lines 919--920
+Underfull \hbox (badness 5490) in paragraph at lines 917--918
 []\T1/ptm/n/n/10 Applying en-sem-ble learn-ing tech-niques: Ex-plore
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 920--921
+Underfull \hbox (badness 1748) in paragraph at lines 918--919
 \T1/ptm/n/n/10 with the lat-est fore-cast-ing al-go-rithms in ma-chine
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 925.
+Package xcolor Warning: Incompatible color definition on input line 923.
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 931.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 929.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -1509,38 +1509,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [10 <./bibliography/Figure/DHT_LN_CF&DP.png> <./bibliography/Figure/LSTM_DHT(7_3).png> <./bibliography/Figure/LightGBM_DHT(8_2).png> <./bibliography/Figure/DHT_GRU.png>]
-Underfull \hbox (badness 1394) in paragraph at lines 936--937
+Underfull \hbox (badness 1394) in paragraph at lines 934--935
 []\T1/ptm/m/n/7.61 Mamon, R. S., Arya, V., Ka-malakan-nan, R., & Gadde, S. (2021).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 938--939
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 []\T1/ptm/m/n/7.61 Kostadinov, S. (2017, De-cem-ber 16). Un-der-stand-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 938--939
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 \T1/ptm/m/n/7.61 GRU net-works. To-wards Data Sci-ence.
  []
 
 
-Overfull \hbox (4.60295pt too wide) in paragraph at lines 938--939
+Overfull \hbox (4.60295pt too wide) in paragraph at lines 936--937
 \T1/ptm/m/n/7.61 https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
 []\T1/ptm/m/n/7.61 Fuqua School of Busi-ness. (n.d.). In-tro-duc-tion to ARIMA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
 \T1/ptm/m/n/7.61 mod-els. Duke.edu. Re-trieved June 20, 2024, from
  []
 
 File: bibliography/Logo_HTTT.png Graphic file (type png)
 <use bibliography/Logo_HTTT.png>
-Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 956.
+Package pdftex.def Info: bibliography/Logo_HTTT.png  used on input line 954.
 (pdftex.def)             Requested size: 24.11993pt x 24.11989pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
