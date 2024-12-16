@@ -5,11 +5,11 @@
 
 ## Team Information - Team 2
 
-No. || Student ID || Full Name || Algorithm responsible for || Distribution
---- || ---------- || ---------------------- || ------------------------- || ------------
-1 || 21522179 || Nguyen Chi Kha(Leader) || LR-CF-DP, ARIMA, GRU || 100%  
-2 || 21521576 || Bui Dinh Trieu || FFT, RNN || 100%
-3 || 21522005 || Nguyễn Minh Duy || LR, LSTM, LightGBM || 100%
+| No. | Student ID | Full Name              | Algorithm responsible for | Distribution |
+| --- | ---------- | ---------------------- | ------------------------- | ------------ |
+| 1   | 21522179   | Nguyen Chi Kha(Leader) | LR-CF-DP, ARIMA, GRU      | 100%         |
+| 2   | 21521576   | Bui Dinh Trieu         | FFT, RNN                  | 100%         |
+| 3   | 21522005   | Nguyễn Minh Duy        | LR, LSTM, LightGBM        | 100%         |
 
 ## Project Information
 
