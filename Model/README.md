@@ -1,10 +1,4 @@
-# 🤖 Model Documentation
-
-The **`Model/`** directory contains implementations, training scripts, and outputs of the statistical, machine learning, and deep learning models applied in the project *Forecasting Stock Price Accuracy for Vietnamese Pharmaceutical Firms*. Each subfolder corresponds to a specific family of models, enabling organized experimentation and reproducibility.
-
----
-
-## 📂 Structure Overview
+## Structure Overview
 
 ```
 
@@ -29,7 +23,7 @@ Model/
 
 ---
 
-## 📘 Model Descriptions
+## Model Descriptions
 
 ### 🔹 Statistical Models
 - **Linear Regression (LR):** Baseline model to capture linear relationships between time and stock price.  
@@ -47,7 +41,7 @@ Model/
 
 ---
 
-## 🛠 Utilities
+## Utilities
 The `utils/` folder contains reusable scripts:
 - **data_preprocessing.py** – Cleaning, normalization, and train-test split functions.  
 - **evaluation.py** – Metrics including RMSE, MAPE, and MSLE.  
@@ -55,7 +49,7 @@ The `utils/` folder contains reusable scripts:
 
 ---
 
-## 📑 Training & Evaluation Workflow
+## Training & Evaluation Workflow
 1. **Preprocess data** using utilities (normalization, feature engineering).  
 2. **Train models** with scripts inside each subfolder.  
 3. **Evaluate performance** using RMSE, MAPE, and MSLE across multiple horizons (30, 60, 90 days).  
@@ -63,7 +57,7 @@ The `utils/` folder contains reusable scripts:
 
 ---
 
-## 📈 Example Results
+## Example Results
 
 - **LSTM** achieved **MAPE < 3.5%**, outperforming ARIMA (≥30%) and FFT (≥60%).  
 - **LightGBM** provided competitive accuracy with fast training times.  
@@ -71,7 +65,7 @@ The `utils/` folder contains reusable scripts:
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 - Hands-on experience implementing **statistical, ML, and DL forecasting models**.  
 - Ability to compare performance across different modeling families.  
 - Exposure to **model saving/loading workflows** for reproducibility.  
