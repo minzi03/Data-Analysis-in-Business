@@ -1,10 +1,4 @@
-# 📄 LaTeX Report Documentation
-
-The **`Latex_Report/`** directory contains the final research paper and supporting files written in **LaTeX (IEEE style)**. This report consolidates all analyses, models, results, and discussions from the project *Forecasting Stock Price Accuracy for Vietnamese Pharmaceutical Firms*.
-
----
-
-## 📂 Structure Overview
+## Structure Overview
 
 ```
 
@@ -22,7 +16,7 @@ Latex\_Report/
 
 ---
 
-## 📘 File Descriptions
+## File Descriptions
 
 ### 🔹 `Report.tex`
 - The main LaTeX document of the project.
@@ -47,7 +41,7 @@ Contains reference libraries in BibTeX format:
 
 ---
 
-## 🛠 Usage Instructions
+## Usage Instructions
 
 1. Open `Report.tex` in a LaTeX editor (Overleaf, TeXstudio, VS Code with LaTeX Workshop).
 2. Compile with **PDFLaTeX** or **XeLaTeX** (preferred for UTF-8 and figures).
@@ -56,7 +50,7 @@ Contains reference libraries in BibTeX format:
 
 ---
 
-## 📑 Report Content Highlights
+## Report Content Highlights
 
 - **Datasets:** Historical daily stock data (2019–2024) from Investing.com for three pharmaceutical firms (*DHT, DP3, AMV*).  
 - **Models:** Statistical (LR, ARIMA, FFT), ML (LightGBM, LR-CF-DP), DL (RNN, GRU, LSTM).  
@@ -66,7 +60,7 @@ Contains reference libraries in BibTeX format:
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 - Practice writing a **scientific paper in IEEE format**.  
 - Gain experience in **organizing references with BibTeX**.  
