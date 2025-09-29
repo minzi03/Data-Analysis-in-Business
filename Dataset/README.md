@@ -1,18 +1,10 @@
-# 📂 Dataset Documentation
-
-The **`Dataset/`** folder contains raw data and supporting descriptions used for analysis and modeling in the project *Data Analysis in Business*.  
-
----
-
-## 📑 Files in Dataset/
-
-### 1. `Description.txt`
+## `Description.txt`
 - Provides an overview of the datasets used throughout labs and the final project.  
 - Includes metadata such as **source (Investing.com)**, **companies under study (DHT, DP3, AMV)**, and a description of columns.
 
 ---
 
-## 📊 Stock Price Data (2019–2024)
+## Stock Price Data (2019–2024)
 
 Historical daily stock prices were collected from [Investing.com](https://www.investing.com) for three Vietnamese pharmaceutical companies:
 
@@ -24,7 +16,7 @@ Historical daily stock prices were collected from [Investing.com](https://www.in
 
 ---
 
-### 📌 Data Attributes
+### Data Attributes
 
 | Column       | Description |
 |--------------|-------------|
@@ -40,7 +32,7 @@ Historical daily stock prices were collected from [Investing.com](https://www.in
 
 ---
 
-## 📊 Descriptive Statistics
+## Descriptive Statistics
 
 Summary statistics of the collected stock price data:
 
@@ -52,7 +44,7 @@ Summary statistics of the collected stock price data:
 
 ---
 
-## 📈 Data Visualization
+## Data Visualization
 
 Visual exploration of distributions and volatility was performed using **boxplots** and **histograms**.
 
@@ -70,7 +62,7 @@ Visual exploration of distributions and volatility was performed using **boxplot
 
 ---
 
-## 🧭 Usage in the Project
+## Usage in the Project
 
 - **Exploratory Data Analysis (EDA):** Descriptive statistics, volatility, and distribution analysis.  
 - **Feature Engineering:** Used to build inputs for statistical, ML, and DL forecasting models.  
@@ -78,6 +70,6 @@ Visual exploration of distributions and volatility was performed using **boxplot
 
 ---
 
-## 🔗 Notes
+## Notes
 - Data is limited to 2019–2024, covering both pre- and post-Covid market volatility.  
 - The dataset provides insights into pharmaceutical stock performance in the Vietnamese market and serves as the foundation for comparative analysis between **statistical, machine learning, and deep learning models**.
