@@ -1,13 +1,6 @@
-# 🧪 LAB Documentation
-
-The **`LAB/`** directory contains practical exercises and supporting datasets designed to reinforce theoretical knowledge from the *Data Analysis in Business* course. Each lab focuses on a specific topic in statistics, probability, regression, or time series analysis, combining both **Microsoft Word reports** and **datasets/notebooks** for hands-on practice.
-
----
-
-## 📂 Structure Overview
+## Structure Overview
 
 ```
-
 LAB/
 ├── Lab1/   # Descriptive Statistics
 ├── Lab2/   # Probability & Inference
@@ -18,7 +11,7 @@ LAB/
 
 ---
 
-## 📘 Lab Descriptions
+## Lab Descriptions
 
 ### 🔹 Lab 1 – Descriptive Statistics
 - **Files:**
@@ -72,7 +65,7 @@ LAB/
 
 ---
 
-## 🛠 Tools & Methods
+## Tools & Methods
 
 - **Software:** Microsoft Excel, Jupyter Notebook, Python (pandas, statsmodels, scikit-learn).  
 - **Techniques Covered:**
@@ -83,7 +76,7 @@ LAB/
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 By completing all labs, students will:  
 - Gain hands-on experience with **statistical methods** and **business data analysis**.  
