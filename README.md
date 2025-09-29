@@ -1,11 +1,11 @@
-# 📊 IS403.O22.HTCL – Data Analysis in Business
+# IS403.O22.HTCL – Data Analysis in Business
 
 * **Lecturer:** Assoc. Prof. Ph.D Nguyen Dinh Thuan  
 * **Instructor:** Mr. Nguyen Minh Nhut  
 
 ---
 
-## 👥 Team Information – Team 2
+## Team Information – Team 2
 
 | No. | Student ID | Full Name               | Algorithms Responsible For | Distribution |
 | --- | ---------- | ----------------------- | -------------------------- | ------------ |
@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Project Information
+## Project Information
 
 **Title:**  
 *Forecasting Stock Price Accuracy for Vietnamese Pharmaceutical Firms through Ensemble Statistical, Machine Learning, and Deep Learning Models*  
@@ -33,7 +33,7 @@ Historical stock performance (2019–2024) collected from [Investing.com](https:
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 ```
 
 minzi03-data-analysis-in-business/
@@ -61,7 +61,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 📅 Work Distribution
+## Work Distribution
 
 1. **Week 1** – Data Collection (all members)  
 2. **Week 2** – Abstract, Introduction, Related Work, Materials (all members)  
@@ -74,7 +74,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 | Company | Records | Mean Price | Min | Max |
 |---------|---------|------------|-----|-----|
@@ -94,7 +94,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 - **Linear Regression** (with Calendar Fourier & Deterministic Process for seasonality & trend)  
 - **ARIMA** (classical time series)  
@@ -107,7 +107,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## ✅ Results
+## Results
 
 ### AMV Dataset
 | Model | RMSE | MAPE | MSLE |
@@ -136,7 +136,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Python:** NumPy, pandas, scikit-learn, statsmodels, TensorFlow/Keras, LightGBM  
 - **Excel/CSV:** preliminary exploration  
@@ -146,7 +146,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 🚀 Learning Outcomes
+## Learning Outcomes
 
 - Applied **descriptive statistics, probability, and regression** in real business context  
 - Implemented **time series forecasting** with classical and modern models  
@@ -156,7 +156,7 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 📑 Example Applications
+## Example Applications
 
 - Short/long-term **forecasting of pharmaceutical stock trends**  
 - **Ensemble model comparison** for financial prediction  
@@ -164,14 +164,14 @@ minzi03-data-analysis-in-business/
 
 ---
 
-## 👥 Authors
+## Authors
 - **Nguyen Chi Kha** – LR-CF-DP, ARIMA, GRU  
 - **Bui Dinh Trieu** – FFT, RNN  
 - **Nguyen Minh Duy** – LR, LSTM, LightGBM  
 
 ---
 
-## 📚 References
+## References
 
 - Xiao & Wang (2017). *A hybrid machine learning approach to stock price prediction.*  
 - Nelson et al. (2017). *Stock market’s price movement prediction with LSTM neural networks.*  
