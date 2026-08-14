@@ -1,0 +1,56 @@
+Team2 - IS403.O22.HTCL
+
+	***About the dataset:
+The dataset comprises information on the stock performance of three pharmaceutical companies listed on the stock exchange:
+
+---
+
+A. Hataphar - Ha Tay Pharmaceutical JSC (DHT)
+
+	Source: investing.com/equities/hataphar
+
+-Ha Tay Pharmaceutical JSC manufactures, trades in, imports, and exports medicines, chemical raw materials for medicine, medicinal materials, and medical equipment. 
+-It offers functional foods and drugs. 
+-In addition, the company provides medicinal products manufacturing services; and import-export authorization services, as well as supplies pharmaceutical ingredients for enterprises. 
+-The company was founded in 1965 and is based in Hanoi, Vietnam.
+ 
+---
+
+B. Central Pharmaceutical JSC No3 (DP3)
+
+	Source: investing.com/equities/central-pharmaceutical-jsc-no3
+
+-Central Pharmaceutical Joint Stock Company No3 (FORIPHARM) is a Vietnam-based company operating in the pharmaceutical industry, which is mainly engaged in the manufacture and trading of pharmaceutical products. 
+-The Company's leading products include botanical medicine and other types of drugs, health supplements and cosmetics, among others. 
+-Besides, the Company partakes in the commerce of medical equipment and supplies, as well as the conduct of medical research.
+
+---
+
+C. American Vietnamese Biotech Inc (AMV)
+
+	Source: investing.com/equities/amvibiotech
+
+-American Vietnamese Biotech Incorporation engages in the manufacturing and trading of medical diagnostic biological products in Vietnam. 
+-The company develops centralized testing centers; and provides medical machinery and equipment, and testing chemicals. 
+-It also offers sterilizers, drug labeling machines, medical image disc recorders, medical dry films, medical dry film printers, and digital radiology systems; 
+ lizer infrared therapy machines; infusion pumps and electric injection pumps; automatic molecular biology testing machines and automatic immunoassay machines and chemicals; 
+ medical equipment, x-ray systems, mobile x-ray systems, portable c-arm x-ray systems, 3T and 1.5 T systems, portable color ultrasound systems, and CT scan systems; endoscopic wire washing machines; and medical software products. 
+-American Vietnamese Biotech Incorporation was founded in 2002 and is headquartered in Ho Chi Minh City, Vietnam.
+
+
+
+	****Detailed description:
+-The provided datasets contain stock price data for three companies spanning from March 1, 2019, to March 28, 2024. 
+-The dataset utilized for analysis consists of 7 columns and approximately 1272 entries Each dataset is structured as a CSV file and includes the following columns:
+	+ Date: The trading date in the format DD/MM/YYYY, indicating when the stock market was active. Data type: String. Unit: Date
+	+ Price: The closing price of the stock on the given trading day, representing the last traded price of the stock at the end of the trading session. Data type: Float .Unit: Currency (VND - Vietnamese Dong).
+	+ Open: The opening price of the stock on the given trading day, indicating the price at which the first trade occurred. Data type: Float. Unit: Currency (VND - Vietnamese Dong).  
+	+ High: The highest price reached by the stock during the trading day, showcasing the peak value the stock attained. Data type: Float. Unit: Currency (VND - Vietnamese Dong).  
+	+ Low: The lowest price reached by the stock during the trading day, illustrating the minimum value the stock reached. Data type: Float. Unit: Currency (VND - Vietnamese Dong).
+	+ Volume: The total number of shares traded during the trading day, reflecting the level of activity or liquidity in the market. Data type: Integer. Unit: Shares (in thousands).
+	+ Change %: The adjusted closing price, which considers corporate actions like stock splits or dividends, expressed as a percentage change compared to the previous trading day. Data type: Float. Unit: Percentage (%).
+
+-The price values seem to be denominated in some currency, though the currency is not specified. The volume is a numerical value, potentially representing a count of shares/coins traded.
+
+
+

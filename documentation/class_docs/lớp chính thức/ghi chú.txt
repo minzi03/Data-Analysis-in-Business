@@ -1,0 +1,47 @@
+số thứ tự: 24
+đọc kĩ chương 4 lab1 => hôm sau thầy hỏi
+population là tập tổng quát, 
+
+sự khác nhau giữa population và sample
+tại sao lại lấy mẫu để tính tổng thể
+	+mất quá nhiều thời gian, tiền bạc...
+gtri ngoại lệ có thể ảnh hưởng đến giá trị trung bình
+	+vd: 1,2,3,4,5, 80 =>
+median=> trung vị
+
+range: khoảng biến thiên
+IQR: tứ phân vị
+variance: phương sai
+
+đọc kĩ 7-35
+
+--
+7/3
+nộp duy nhất 1 file word
+biểu đồ histogram=> trục tung: 0,1,2,3; trục hoành: 0,2,4,6 => lấy trước lớn hơn, sau bằng
+
+
+Q1= 25% * (N+1)
+IQR= Q3 - Q1
+sàn= Q1 - 1.5 * IQR
+trần= Q3 + 1.5 * IQR
+giá trị sàn < giá trị min => lấy min làm sàn
+giá trị trần > giá trị max => lấy max làm trần; trường hợp trần < max => ngoại lệ
+
+page 32=> BoxPlot
+
+đồ án có 2 hướng(bài toán dự báo):
++hướng 1: 8 thuật toán=> 5 thuật toán hiểu, 3 thuật toán(TK, ML, DL)(có thể đề xuất 1)
++hướng 2: 6 thuật toán học(5 thuật toán, 1 tt Deep Learning), 2 thuận toán tối ưu(2 loại optimize) ADAM, so sánh với cái bình thường
+dataset: 3 bộ, vietstock(vinamilk), chỉ số không khí(CO2, AQI, NH3)
+1-3-2019 => 1-3-2024: thử nghiệm
+1/6/2024 => thực => 13/6 báo cáo, viết gần 1o trang, lấy dữ liệu ít nhất 5 năm
+so sánh xem cái nào tối ưu cho cái nào
+dự đoán 30 ngày tiếp theo
+
+21/3
+bỏ dấu *, 2 dòng đầu
+
+25/04
+định nghĩa chuỗi tgian=> cột y(giá trị), cột x(thời gian)
+Log1=> độ trễ
